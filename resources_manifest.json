@@ -374,8 +374,8 @@
     {
       "path": "docs/REPRODUCING.md",
       "source": "publication/ncp-groundwater-recovery/REPRODUCING.md",
-      "size_bytes": 4735,
-      "sha256": "dc090c444d6e45028500e97b89de6f3409d905de5df555494fd64c0ecf12ad1d"
+      "size_bytes": 5153,
+      "sha256": "f2adb7a82d595d3964b77443ddaf2ebe4d80980c4dd0a3647b79a662d481e474"
     },
     {
       "path": "docs/RESOURCE_MAP.md",
@@ -392,8 +392,8 @@
     {
       "path": "excluded_resources.json",
       "source": "curation policy",
-      "size_bytes": 1868,
-      "sha256": "045f7aba9c4dcb0e6d3843c0dca0e0f7e252da5a33ac8bf4da5d73d9b71468e7"
+      "size_bytes": 1833,
+      "sha256": "072679af429e529f2a4b205152e1b87cf80a777ef54e69aee2cd501cd2c6b96c"
     },
     {
       "path": "gee/ncp_grid_monthly_panel.js",
