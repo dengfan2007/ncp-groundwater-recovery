@@ -1,0 +1,2631 @@
+{
+  "schema_version": 1,
+  "version": "v1.0.0",
+  "repository": "https://github.com/dengfan2007/ncp-groundwater-recovery",
+  "source_commit": "dab5f6b0ffa2802638df66511b9d1cb3c6fe4dcb",
+  "scope": "Code, frozen gridded products, candidate/trial evidence and aggregate results. Individual-well data and mixed-source map payloads excluded.",
+  "files": [
+    {
+      "path": "README.md",
+      "source": "publication/ncp-groundwater-recovery/README.md",
+      "size_bytes": 3130,
+      "sha256": "ab25b2613390664024f3c088809f9fb4c5c84e7a41c6b7b1f194fc88e7732d51"
+    },
+    {
+      "path": "RIGHTS.md",
+      "source": "publication/ncp-groundwater-recovery/RIGHTS.md",
+      "size_bytes": 995,
+      "sha256": "17f3037e09a0c11ab0cf354687763b8ac43056b1230acf87abb648dabbe4e030"
+    },
+    {
+      "path": "analysis/ee_download_all.py",
+      "source": "analysis/ee_download_all.py",
+      "size_bytes": 1779,
+      "sha256": "dac9c1a2f2dc2bd052b231978597eefcb6a8015f043437db4c338b72e510eee7"
+    },
+    {
+      "path": "analysis/ee_hutuo_case_local_export.py",
+      "source": "analysis/ee_hutuo_case_local_export.py",
+      "size_bytes": 10827,
+      "sha256": "8ff4f03b1bb2ee1d2b5541b45485b7c80254f79c15697dded37e1ef18e707451"
+    },
+    {
+      "path": "analysis/ee_local.py",
+      "source": "analysis/ee_local.py",
+      "size_bytes": 2029,
+      "sha256": "dc7f257574fe843d16b50e158dc6e938612254ac6c7e96cd5a37e0a9f52a6550"
+    },
+    {
+      "path": "analysis/ee_ncp_closure_reextract.py",
+      "source": "analysis/ee_ncp_closure_reextract.py",
+      "size_bytes": 7300,
+      "sha256": "0189af5b1980520f00336d09e955ed0ffddc5f309cd8b933ed854e8c32acc722"
+    },
+    {
+      "path": "analysis/ee_ncp_common.py",
+      "source": "analysis/ee_ncp_common.py",
+      "size_bytes": 7816,
+      "sha256": "df16cf5bfc6da9fb8883ccc45696de7a2cb22eae633657d7750ddf46f835db46"
+    },
+    {
+      "path": "analysis/ee_ncp_grid_local_export.py",
+      "source": "analysis/ee_ncp_grid_local_export.py",
+      "size_bytes": 12711,
+      "sha256": "2a3105cb359d56bd4a65207f81a7d6cef38ed9245bfd31ddf9ce950e7b92e107"
+    },
+    {
+      "path": "analysis/ee_ncp_legacy_storage_repeat.py",
+      "source": "analysis/ee_ncp_legacy_storage_repeat.py",
+      "size_bytes": 4654,
+      "sha256": "2711057a505182a0a34de7e74f1ba4a261992e68188d278eff03da956a258c18"
+    },
+    {
+      "path": "analysis/ee_ncp_monitoring_extract.py",
+      "source": "analysis/ee_ncp_monitoring_extract.py",
+      "size_bytes": 6865,
+      "sha256": "9105c6ebe9264ad16f556e176c0f2d6a62e9efe86c2b1712fd311e8ce3647b44"
+    },
+    {
+      "path": "analysis/ee_smoke_test.py",
+      "source": "analysis/ee_smoke_test.py",
+      "size_bytes": 1072,
+      "sha256": "64a48ecc0dd207d3b87d9bb285229ddaaa0585cbe7c4f370fe80bd55f1fc0d52"
+    },
+    {
+      "path": "analysis/ee_water_overlap_check.py",
+      "source": "analysis/ee_water_overlap_check.py",
+      "size_bytes": 7358,
+      "sha256": "e2289edc55e73f75ac757e30410abbfbef26ce7a70d6d22fe8a357f67599fd3e"
+    },
+    {
+      "path": "analysis/ncp_calendar_figures.py",
+      "source": "analysis/ncp_calendar_figures.py",
+      "size_bytes": 9619,
+      "sha256": "312016ebc63c00527a3be86967e1638dcdad63c4f0d0b9e9fae0755b9cf9d91e"
+    },
+    {
+      "path": "analysis/ncp_calendar_revision.py",
+      "source": "analysis/ncp_calendar_revision.py",
+      "size_bytes": 15891,
+      "sha256": "2eddaf26501f23994bf5ffd57be6f413659aec10ec057559437080ba7544ab09"
+    },
+    {
+      "path": "analysis/ncp_cell_well_trends.py",
+      "source": "analysis/ncp_cell_well_trends.py",
+      "size_bytes": 4260,
+      "sha256": "eabe78bdbc0b9d863e34b8eea0699633b2913653ec0efd29ffe5585884c706a5"
+    },
+    {
+      "path": "analysis/ncp_data_qc.py",
+      "source": "analysis/ncp_data_qc.py",
+      "size_bytes": 7869,
+      "sha256": "2f2db2d3b08c66e5bc0712da86d660970e01e2b8d938123547edf75e3748ccc5"
+    },
+    {
+      "path": "analysis/ncp_draw_workflow.py",
+      "source": "analysis/ncp_draw_workflow.py",
+      "size_bytes": 16865,
+      "sha256": "a47634e31176a5f57b2e4250fc2e1b32511c3b941a8c336d52e5853592e59e15"
+    },
+    {
+      "path": "analysis/ncp_ensemble_reference_check.py",
+      "source": "analysis/ncp_ensemble_reference_check.py",
+      "size_bytes": 4474,
+      "sha256": "efa90a39b6780f9db4a8e1ed12dde9c84bfe4a633c2ba469bae9fe97a3a24d2f"
+    },
+    {
+      "path": "analysis/ncp_experiment_suite.py",
+      "source": "analysis/ncp_experiment_suite.py",
+      "size_bytes": 5095,
+      "sha256": "1cdbea6cc04ea7313b0259b850407f51da5def99f7f6b8addb9b0f112c86974d"
+    },
+    {
+      "path": "analysis/ncp_figure_upgrade.py",
+      "source": "analysis/ncp_figure_upgrade.py",
+      "size_bytes": 39962,
+      "sha256": "b48778f6553ce07215efd4a76141e8e9668151c7e436602553d8289e33ee1824"
+    },
+    {
+      "path": "analysis/ncp_long2025_to_wellcsv.py",
+      "source": "analysis/ncp_long2025_to_wellcsv.py",
+      "size_bytes": 3874,
+      "sha256": "71d0368bf40dd58f90eccee293ada13fdca3885baf013fb12a60dbfb4d86f32c"
+    },
+    {
+      "path": "analysis/ncp_monitoring_core.py",
+      "source": "analysis/ncp_monitoring_core.py",
+      "size_bytes": 8725,
+      "sha256": "df341b029991fd99a1a879a8dd0c39b1fda326338ff10c95c3e799c6e7b9d8ba"
+    },
+    {
+      "path": "analysis/ncp_monitoring_diagnostics.py",
+      "source": "analysis/ncp_monitoring_diagnostics.py",
+      "size_bytes": 15653,
+      "sha256": "b3b57e8d63b130dbd9a57a933e9f8cd99612210941c603dcd581114b2fb1299a"
+    },
+    {
+      "path": "analysis/ncp_monitoring_figures.py",
+      "source": "analysis/ncp_monitoring_figures.py",
+      "size_bytes": 39463,
+      "sha256": "e3f3dc707e14f83067c4c4f3c21dd53c55bca04232452ab740d0f7db4119efc7"
+    },
+    {
+      "path": "analysis/ncp_monitoring_inference.py",
+      "source": "analysis/ncp_monitoring_inference.py",
+      "size_bytes": 14310,
+      "sha256": "82d6cd0ec8889af2d4c27ca7ce4c0669b1e55812169f30bd77757ddae561d8e9"
+    },
+    {
+      "path": "analysis/ncp_monitoring_models.py",
+      "source": "analysis/ncp_monitoring_models.py",
+      "size_bytes": 3244,
+      "sha256": "3d6b9ea8cba332b2b5dc764eb8e40c24521ca0e4619a55ffab5b06650bbb597f"
+    },
+    {
+      "path": "analysis/ncp_monitoring_observations.py",
+      "source": "analysis/ncp_monitoring_observations.py",
+      "size_bytes": 9654,
+      "sha256": "d25bd226cdd48117fa781cc669399a7f6cd7848a31fef9e66fce6493dc16787c"
+    },
+    {
+      "path": "analysis/ncp_monitoring_processing.py",
+      "source": "analysis/ncp_monitoring_processing.py",
+      "size_bytes": 654,
+      "sha256": "ad95c294f630030e58b35842856171f57a6cae51ff5549781876272c13264415"
+    },
+    {
+      "path": "analysis/ncp_monitoring_revision.py",
+      "source": "analysis/ncp_monitoring_revision.py",
+      "size_bytes": 10628,
+      "sha256": "20a9949454417db778d4cc505ddc2e66cb5db46ab92cb088ad73cfea454f4760"
+    },
+    {
+      "path": "analysis/ncp_obsgrid_to_wellproxy.py",
+      "source": "analysis/ncp_obsgrid_to_wellproxy.py",
+      "size_bytes": 2339,
+      "sha256": "0d0a7673cc7292c5dcf026f5e141f2331f0ba5c474797f9f9f9902a7e8f34a1c"
+    },
+    {
+      "path": "analysis/ncp_plot_figures.py",
+      "source": "analysis/ncp_plot_figures.py",
+      "size_bytes": 47156,
+      "sha256": "0b5ab166db32c55e1776b66c7d66d0956e40118d210036d7251680884e1e5411"
+    },
+    {
+      "path": "analysis/ncp_prepare_figure_tables.py",
+      "source": "analysis/ncp_prepare_figure_tables.py",
+      "size_bytes": 22178,
+      "sha256": "f78a683ff356cb72f530a020770baf167ca7e725fb5a93dc83773cb435eb03df"
+    },
+    {
+      "path": "analysis/ncp_recovery_analysis.py",
+      "source": "analysis/ncp_recovery_analysis.py",
+      "size_bytes": 29418,
+      "sha256": "7b311f8a610b63ad7ed26d7ae628117c7c0406fa1208a0bef32ae2d270830072"
+    },
+    {
+      "path": "analysis/ncp_render_tables.py",
+      "source": "analysis/ncp_render_tables.py",
+      "size_bytes": 4170,
+      "sha256": "8fe0b2170788ce8660692d95e01fe6ed298cfe42dedf20b2d706ceefb15ef58a"
+    },
+    {
+      "path": "analysis/ncp_repro_pipeline.py",
+      "source": "analysis/ncp_repro_pipeline.py",
+      "size_bytes": 11270,
+      "sha256": "c76d520009782aa61651b36bcd05b5a7cf7cd1e7582ccc4739665bb9165b9c5a"
+    },
+    {
+      "path": "analysis/ncp_review_diagnostics.py",
+      "source": "analysis/ncp_review_diagnostics.py",
+      "size_bytes": 4993,
+      "sha256": "e498341330db79d1e2dd3c7de6d8556f220abd0aa44e7ed8f393a8f68c41f7dd"
+    },
+    {
+      "path": "analysis/ncp_review_figures.py",
+      "source": "analysis/ncp_review_figures.py",
+      "size_bytes": 9628,
+      "sha256": "2aaaf970e608b6a2b0c802d48085e84bb9b40b5e4a2613a86570593ca73cfedf"
+    },
+    {
+      "path": "analysis/ncp_review_reporting.py",
+      "source": "analysis/ncp_review_reporting.py",
+      "size_bytes": 3648,
+      "sha256": "67926c4ceaec67ea191ca0c313ec7e2e60cab47043fe39025b67816e6ccd4657"
+    },
+    {
+      "path": "analysis/ncp_review_revision.py",
+      "source": "analysis/ncp_review_revision.py",
+      "size_bytes": 17372,
+      "sha256": "e8b035eda8e3a3391c1ce59ae98cfd55a389af2cd4f857c9a3a04c64624f4878"
+    },
+    {
+      "path": "analysis/ncp_revision_analyses.py",
+      "source": "analysis/ncp_revision_analyses.py",
+      "size_bytes": 62604,
+      "sha256": "5ac32847d0a0ec09bf596c806113941801477eda099effd057bfd88aaa87fc65"
+    },
+    {
+      "path": "analysis/ncp_signal_reconstruction.py",
+      "source": "analysis/ncp_signal_reconstruction.py",
+      "size_bytes": 5128,
+      "sha256": "bb9f4f3ab11b2ed13411fb6ac94b22e2020e551972485effa14c64ea6246206e"
+    },
+    {
+      "path": "analysis/ncp_story_analysis.py",
+      "source": "analysis/ncp_story_analysis.py",
+      "size_bytes": 18101,
+      "sha256": "ceb02f7c2b6f1a6695012767de3fbc41dd188c6aac98ebdfbd5b334e1093b0ca"
+    },
+    {
+      "path": "analysis/ncp_story_convergence_check.py",
+      "source": "analysis/ncp_story_convergence_check.py",
+      "size_bytes": 2442,
+      "sha256": "4513384269e216c4a340be72040489fe73a3e1a438fc48096a31dfdde9f4efd2"
+    },
+    {
+      "path": "analysis/ncp_story_figures.py",
+      "source": "analysis/ncp_story_figures.py",
+      "size_bytes": 11187,
+      "sha256": "b1459f30079b668fbfa666a7ed7fdb5d0571247ccc0cf446f4f9fdd21f307169"
+    },
+    {
+      "path": "analysis/ncp_story_reporting.py",
+      "source": "analysis/ncp_story_reporting.py",
+      "size_bytes": 1497,
+      "sha256": "b1c3bfb5fa19ddf9c055ea04b3ac4292a1320eac17afd89574e2239debad5dc3"
+    },
+    {
+      "path": "analysis/ncp_story_sensitivity.py",
+      "source": "analysis/ncp_story_sensitivity.py",
+      "size_bytes": 4478,
+      "sha256": "01c17ec0d76bc29ecaefafa2c62ad44b6aa977073e3a127c1c19cbe66559bc29"
+    },
+    {
+      "path": "analysis/ncp_trajectory_postprocess.py",
+      "source": "analysis/ncp_trajectory_postprocess.py",
+      "size_bytes": 18852,
+      "sha256": "a21e267716f1d01a9971e48acc26d0dc747f0d2f1da6c7cf1d433595c0a6f398"
+    },
+    {
+      "path": "analysis/ncp_validation_extension.py",
+      "source": "analysis/ncp_validation_extension.py",
+      "size_bytes": 22461,
+      "sha256": "6976b1cd8bbfd71ec0a6db8c3c5fe01c0eafd71d4b816765d82aefe4629df78e"
+    },
+    {
+      "path": "analysis/ncp_validation_reporting.py",
+      "source": "analysis/ncp_validation_reporting.py",
+      "size_bytes": 14881,
+      "sha256": "5faeca67e00daa08b7b98d1547c902c2b19a32ad35d82141cffd6939f11c66de"
+    },
+    {
+      "path": "analysis/ncp_validation_uniform.py",
+      "source": "analysis/ncp_validation_uniform.py",
+      "size_bytes": 2208,
+      "sha256": "2047c87d4233ddaab7239fd154c786b71a59a7e47a09a0b0602bbc8d2fe0d273"
+    },
+    {
+      "path": "analysis/ncp_well_utils.py",
+      "source": "analysis/ncp_well_utils.py",
+      "size_bytes": 2448,
+      "sha256": "78e14c5186bdc4f437c52c0e3f388f402a7c1496fcb0ac2bfea924196a826ce8"
+    },
+    {
+      "path": "analysis/requirements-historical.txt",
+      "source": "analysis/requirements-historical.txt",
+      "size_bytes": 311,
+      "sha256": "adc870733e8de1eb9a307ce81274315984c5cd0a25b97d87da79ca0e2ac46d45"
+    },
+    {
+      "path": "analysis/requirements.txt",
+      "source": "analysis/requirements.txt",
+      "size_bytes": 149,
+      "sha256": "b39c5ccb9c27371894708cf67d0a29f560acf78ba65301dece94e68072266503"
+    },
+    {
+      "path": "analysis/test_calendar_time.py",
+      "source": "analysis/test_calendar_time.py",
+      "size_bytes": 2765,
+      "sha256": "fff9b7ad7617b397677b53348c2aaccd213606578603e0312914bc2a648c454f"
+    },
+    {
+      "path": "analysis/test_monitoring_revision.py",
+      "source": "analysis/test_monitoring_revision.py",
+      "size_bytes": 2931,
+      "sha256": "b59f8e7dab8fea9f29bdb61d0d189b0e5c1311ce9178725aa83ca6aba6db7b19"
+    },
+    {
+      "path": "analysis/test_review_revision.py",
+      "source": "analysis/test_review_revision.py",
+      "size_bytes": 1570,
+      "sha256": "354bdf659fbec803da176f716c9881423453590130b10cf3ae5619e260184eb7"
+    },
+    {
+      "path": "analysis/test_signal_reconstruction.py",
+      "source": "analysis/test_signal_reconstruction.py",
+      "size_bytes": 2609,
+      "sha256": "0fa76c764d4e18be922d896ca8a9c93442b772bb211e5faccb14e1a1d4ca6db1"
+    },
+    {
+      "path": "data/raw/grid_monthly_panel.csv",
+      "source": "data/raw/grid_monthly_panel.csv",
+      "size_bytes": 1626953,
+      "sha256": "07e603ceb3634f92ae447e2164f215fc22fbb010e960b641a41c3936603e78be"
+    },
+    {
+      "path": "data/raw/ncp_grid_definition.csv",
+      "source": "data/raw/ncp_grid_definition.csv",
+      "size_bytes": 2072,
+      "sha256": "f59cc282c6b5402832a30a254085963c8a85f9a8f12e95187cbcd750323d492e"
+    },
+    {
+      "path": "docs/DATA_ACCESS.md",
+      "source": "publication/ncp-groundwater-recovery/DATA_ACCESS.md",
+      "size_bytes": 2627,
+      "sha256": "d4ebf2779ec9a27e485fcf80e54917738471ebe95ef607bcd4678e6c17551775"
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "source": "docs/management/ENVIRONMENT.md",
+      "size_bytes": 2298,
+      "sha256": "36843c3e39a473bf324312960f8a3e761f61c7e8318bff73c7e1d93ca081e3ef"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "source": "publication/ncp-groundwater-recovery/REPRODUCING.md",
+      "size_bytes": 4474,
+      "sha256": "6b128a836cb444f16984ca968de3bc64565c2102c296001c5495d46da9212832"
+    },
+    {
+      "path": "docs/RESOURCE_MAP.md",
+      "source": "publication/ncp-groundwater-recovery/RESOURCE_MAP.md",
+      "size_bytes": 2519,
+      "sha256": "e3cd5dd8aaad5cb137b6fe0027a1261be5fb2505b4894679ab33d4872fbb9f7f"
+    },
+    {
+      "path": "docs/map_sources.md",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/06_map_sources/README.md",
+      "size_bytes": 3213,
+      "sha256": "357b2fc85910565a60e30d4df00b69d9371ae4186916f6b80ecfc04bd9cd2040"
+    },
+    {
+      "path": "excluded_resources.json",
+      "source": "curation policy",
+      "size_bytes": 1868,
+      "sha256": "045f7aba9c4dcb0e6d3843c0dca0e0f7e252da5a33ac8bf4da5d73d9b71468e7"
+    },
+    {
+      "path": "gee/ncp_grid_monthly_panel.js",
+      "source": "gee/ncp_grid_monthly_panel.js",
+      "size_bytes": 10599,
+      "sha256": "d11c25de4c984e5d33e63bac005af848578086ae0efc6a4775b51146b6cda9d0"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_calendar_stl.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_calendar_stl.csv",
+      "size_bytes": 10287,
+      "sha256": "95128e53d62b5f43042e4b64e4d870cf5488019fd9abf2cf41d1073a9ff583c4"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_legacy_support_calendar.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_legacy_support_calendar.csv",
+      "size_bytes": 10254,
+      "sha256": "d30032181fad87e00883f9752d5ca4998a0b42d75b91bc4a4109154bba2427ae"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_observed_harmonic.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_observed_harmonic.csv",
+      "size_bytes": 10073,
+      "sha256": "d72410122ee660322004c62393bc57f7cd31707966521b1ee1037136dfc20bcf"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_segmented_only.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_segmented_only.csv",
+      "size_bytes": 11127,
+      "sha256": "715e2aa64888e53e6e9145dd867e41177ff2311484f892e8703097a65b142728"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_through_2020.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_through_2020.csv",
+      "size_bytes": 12005,
+      "sha256": "2df286f961da653e56451810786bae2bb1cd554593eeaef142007f56262c48a0"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_water_contemporaneous.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_water_contemporaneous.csv",
+      "size_bytes": 10305,
+      "sha256": "8dcd1514e5f11e18a409b8762dc99aab4c0a18f83dbd7b92bb578147a55c9148"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/breakpoints_water_lag03.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/breakpoints_water_lag03.csv",
+      "size_bytes": 10183,
+      "sha256": "5d129fe93b4450bfce841914358841cb7792afc9ca2807af36d20f57f46b0070"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/calendar_qc.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/calendar_qc.csv",
+      "size_bytes": 1189,
+      "sha256": "4bbe065fc90f2f52076d91ca3089eb4a3f4b7dbd8523e53b007bdbaa565e2f30"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/coverage_effects.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/coverage_effects.csv",
+      "size_bytes": 712,
+      "sha256": "c226bfb3e5b8dc5035a35a61bac10274cf9a740c1ff0302022645b39d6edb5ba"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/late_cluster_spatial_effects.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/late_cluster_spatial_effects.csv",
+      "size_bytes": 677,
+      "sha256": "47db5b1936c31310bba9f6c822bc7d8af2828d962e07e454399c8a64f8762269"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/leave_one_grid_out.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/leave_one_grid_out.csv",
+      "size_bytes": 5839,
+      "sha256": "f88504a478971bf30cdff31e54abfa9cccb517009f51bd3d503b150af5fd8d27"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/manifest.json",
+      "source": "outputs/calendar_revision/2026-10-12-r4/manifest.json",
+      "size_bytes": 1688,
+      "sha256": "56dcc6b3b52b11c6bdc1ad4b98b574b00a575feb751ffbeec7836bacbca13436"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/matched_stable_wells/validation_metrics.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/matched_stable_wells/validation_metrics.csv",
+      "size_bytes": 1581,
+      "sha256": "5d3e9e892ce9a2878eda368f0c1488434267ad94ee0cb3412b3b272399019713"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/matched_stable_wells/validation_series.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/matched_stable_wells/validation_series.csv",
+      "size_bytes": 13243,
+      "sha256": "a89fca8ed47613fe4c89a5cdf561852adf8e8e877154187d4c239dbc7c78d43d"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/method_comparison.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/method_comparison.csv",
+      "size_bytes": 780,
+      "sha256": "7f4c1adb7ee60258fe433b583ce2335397488adbe977db1f945d54eec4163067"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/monthly_availability.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/monthly_availability.csv",
+      "size_bytes": 4679,
+      "sha256": "94785f0444d00ff652534d1b329f67325a178b97f6c113ad8f796e6b30e306f0"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/paired_method_spatial_effects.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/paired_method_spatial_effects.csv",
+      "size_bytes": 522,
+      "sha256": "38ba32294142d8bf5e0129899f8b68ba5bf062218139ca680e113c7f1449049c"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/segmented_spatial_effects.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/segmented_spatial_effects.csv",
+      "size_bytes": 290,
+      "sha256": "877553c941ef7f87dcdf087ea984e2f5a4aa5a3eb114ea8bf32316902fb4fea6"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/sensitivity_summary.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/sensitivity_summary.csv",
+      "size_bytes": 813,
+      "sha256": "fa2e2dde0b13589df031499b512a98717f6fff83e527a4163c02519ed3c6b4b5"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/spatial_effects.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/spatial_effects.csv",
+      "size_bytes": 639,
+      "sha256": "283d75da92fa2e8c0e60bf0571e6fa97eddf4250afdbfc2e69c5f1bf607d9fa2"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/stable_wells/validation_metrics.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/stable_wells/validation_metrics.csv",
+      "size_bytes": 1570,
+      "sha256": "1e161df2b0820cccfb596471e91666ade972639fff696d5d7ba21aa8d2750852"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/stable_wells/validation_series.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/stable_wells/validation_series.csv",
+      "size_bytes": 13244,
+      "sha256": "3373c1b8ddb6f8e6d4b31d7938a2bba09392c7934c47a6141417a4fdde3c90c8"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/validation_metrics.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/validation_metrics.csv",
+      "size_bytes": 1581,
+      "sha256": "daae937deceabf715f02ee1352674fbaaa68f90706c1f399f5b5c35cf8cacde6"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/validation_series.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/validation_series.csv",
+      "size_bytes": 37709,
+      "sha256": "a245d3a38f3e0d2578089d187b691da35f5498e4cfc3b96b55f051359c58b9a5"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/water_association.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/water_association.csv",
+      "size_bytes": 9875,
+      "sha256": "f18bfbc2d5145bd236272920eaf5100ff21e9d0be1de014297f8d30b2c6e9973"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/water_contemporaneous_coefficients.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/water_contemporaneous_coefficients.csv",
+      "size_bytes": 1671,
+      "sha256": "cf3a9506ee96e15056a02cdb4aec7577e2028af0b82238419752dec8e6c308f2"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/water_lag03_coefficients.csv",
+      "source": "outputs/calendar_revision/2026-10-12-r4/water_lag03_coefficients.csv",
+      "size_bytes": 1793,
+      "sha256": "a49afe1336f9441bdd40a5a476bcb9f0b49fe9e7ea91a0683b66505e1944cb09"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure3_evidence/conditional_spatial_intervals.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure3_evidence/conditional_spatial_intervals.csv",
+      "size_bytes": 715,
+      "sha256": "788748de70f12a70abe229cbfc449e38a5f3ed546043d1e0781953df9ed6f33f"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure3_evidence/figure3_evidence.json",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure3_evidence/figure3_evidence.json",
+      "size_bytes": 1368,
+      "sha256": "d01c7d7e55eaab61d897ed3aa3d20d9961d512f2a46b81bc8e3a2dbcfdd599eb"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure3_evidence/paired_dates.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure3_evidence/paired_dates.csv",
+      "size_bytes": 2545,
+      "sha256": "c3d8b0750d5e23014053a41eec195b2a822d43ec9e2f5574b0fd5a6a985dbf43"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure3_evidence/point_multiplicity.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure3_evidence/point_multiplicity.csv",
+      "size_bytes": 987,
+      "sha256": "879c309c4cd7d254630b6a7717b92fec8e432e1293038202d6b5b0b54be90cf2"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure3_evidence/reportable_counts.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure3_evidence/reportable_counts.csv",
+      "size_bytes": 255,
+      "sha256": "4537ff2420d1ed7fe6db630a789b693ea578f6e08f78a1c3f15782480cc4520f"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure4_evidence/candidate_audit.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure4_evidence/candidate_audit.csv",
+      "size_bytes": 4166,
+      "sha256": "dfb34870737cf3e356c1a7fc478211dfca495e9b9fe03066c973bc964206f22f"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure4_evidence/displayed_candidate_audit.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure4_evidence/displayed_candidate_audit.csv",
+      "size_bytes": 2171,
+      "sha256": "66be7e941405efbb2bcb1c176023fbda1dccb8aef7c28ee214c47bfc49985d2e"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure4_evidence/figure4_evidence.json",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure4_evidence/figure4_evidence.json",
+      "size_bytes": 1448,
+      "sha256": "9ffe113c8b850cbd2e49616c059f7fcd1162e2951763574c05caa72db6b7ae29"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/conditional_box_statistics.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/conditional_box_statistics.csv",
+      "size_bytes": 267,
+      "sha256": "152342f29e89b4c9a898f0e9506e055607ea921357d9ef03dff1db6a241f10ce"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/conditional_date_errors.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/conditional_date_errors.csv",
+      "size_bytes": 64102,
+      "sha256": "bba83b045e33542f07cd9f9786319dbb8c52dc06cf588a64242efdb990a029e2"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/figure5_evidence.json",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/figure5_evidence.json",
+      "size_bytes": 2973,
+      "sha256": "ac7d1997045812bf938f13c23170c3662c6cc3d9ec239cab13726efad03e3e05"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/onset_hit_settings.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/onset_hit_settings.csv",
+      "size_bytes": 3394,
+      "sha256": "931d94680c49d62178a63be6b4de03d084a086a885d9f2c9cb9e9afb22a2b2e0"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/paired_validation_reports.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/paired_validation_reports.csv",
+      "size_bytes": 615760,
+      "sha256": "9d0e08dc1ff679609f427d864f5c5e9fe79eadeb4b2a09247b51690a1c0b797d"
+    },
+    {
+      "path": "outputs/current_figure_checks/figure5_evidence/same_validation_comparison.csv",
+      "source": "submission/hydrogeology-journal/2026-10-19-hydrogeology-r7/05_provenance_and_checks/figure5_evidence/same_validation_comparison.csv",
+      "size_bytes": 2585,
+      "sha256": "2e39934adde18debbd77af8e0c5cb02024974f59c6063837afbae957e223a5ac"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig01_analysis_cells.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig01_analysis_cells.csv",
+      "size_bytes": 2735,
+      "sha256": "85b8bdc89fe49399d877bbbb83a73d0e7a8052c4c9b08063edb14fe857177edb"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig01_well_counts.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig01_well_counts.csv",
+      "size_bytes": 950,
+      "sha256": "136758a8762c83757da51f748258d0f9878a946808e2bd97a36a165a038775c2"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig02_regional_series.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig02_regional_series.csv",
+      "size_bytes": 25403,
+      "sha256": "30c998ccc9024950c4e1eb58b0f4198babb989e56295639a54cc2a7e6720c6e7"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig02_trend_intervals.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig02_trend_intervals.csv",
+      "size_bytes": 1660,
+      "sha256": "83489dbcd818e7a995bcbf1f4609837de042d49dd39b2efb59078300c6f518f4"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig03_endpoint_summary.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig03_endpoint_summary.csv",
+      "size_bytes": 1282,
+      "sha256": "63a5e8b33bfb73c022d6e8b9f60fb3d01730cc886c86483183a3760241f23379"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig03_paired_revisions.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig03_paired_revisions.csv",
+      "size_bytes": 11343,
+      "sha256": "12a26911f8a1b748849928f21be06e0489ea8cc7510672e12ae18e30e2663c3c"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig04_candidates.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig04_candidates.csv",
+      "size_bytes": 1110,
+      "sha256": "2f12d2dab293d5c35aef4b12e90572f42e7cbe0ccd4a3bcefbf6517c52346691"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig04_selections.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig04_selections.csv",
+      "size_bytes": 1241,
+      "sha256": "c56f3aab5e84dd37087806812bd3d321382b6c498560c9bf15e0fe828f77e5c0"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig04_signals.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig04_signals.csv",
+      "size_bytes": 124546,
+      "sha256": "59f8348a06c93414ac544b77bdd374c57d10bc44fa8b1315d5a4e5dd3de069cf"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig05_baseline_errors.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig05_baseline_errors.csv",
+      "size_bytes": 179726,
+      "sha256": "8ee621607b7d6469cf5e48ee781a0b46d665dca563a9e78799a6157a7e2f323e"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig05_calibrated_summary.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig05_calibrated_summary.csv",
+      "size_bytes": 2526,
+      "sha256": "2bead34080da9fa9d7937a886a59e72b027ea586dd91856e3d07a93ea9062666"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig05_truth_trends.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig05_truth_trends.csv",
+      "size_bytes": 11662,
+      "sha256": "51d5d442037df2efdc360e12fd7916921d4b7bdc6b6f03ffa80467acdfd3dba9"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig06_correlations.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig06_correlations.csv",
+      "size_bytes": 3808,
+      "sha256": "31300aaed1e20c165485d6e1e9ffbca69ba96c14a3b63a21d5cf937f5528ff58"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig06_matched_series.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/fig06_matched_series.csv",
+      "size_bytes": 40310,
+      "sha256": "05c0acd9544701b00342bd112d2a0ef0b635785e26a76a01537783b593ddbd8d"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_closure.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_closure.csv",
+      "size_bytes": 3871,
+      "sha256": "147e0221247ca98c8195d95ad316797899707ec553f77610e413863a45fd8f73"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_heatmap_route_A.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_heatmap_route_A.csv",
+      "size_bytes": 19756,
+      "sha256": "99fb5c3674a0b3a1f8ac8828fb7adcbe0bf8796e6ad001b08a8b61c5794d4a90"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_heatmap_route_D.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_heatmap_route_D.csv",
+      "size_bytes": 20429,
+      "sha256": "70da4c4dac0f62c8f85e14cbd1d68132443f4c5914cdb8ea7ac40f9b90b333f9"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_occurrence_profiles.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_occurrence_profiles.csv",
+      "size_bytes": 944091,
+      "sha256": "3156e3521b0e21f75e1c636216c296566964a5d54e8939a3dc2e687dde83d4d1"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_temporal_intervals.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_temporal_intervals.csv",
+      "size_bytes": 2143,
+      "sha256": "c1e2a40a61e61ded45bed6181c74b035e8783b68a73f0938b6c5cea147bb8919"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_well_coverage.csv",
+      "source": "outputs/figure_revision/2026-10-17-final/tables/supplement_well_coverage.csv",
+      "size_bytes": 165,
+      "sha256": "309f116997ead87cf61a73aef7f8609c0e2fe8e58b3a0f8b9c2052b8bd473f96"
+    },
+    {
+      "path": "outputs/figure_tables_en/context_hrb_supply_use.csv",
+      "source": "outputs/figure_tables_en/context_hrb_supply_use.csv",
+      "size_bytes": 1544,
+      "sha256": "616b33c5adbca92b5bb3323b0c27999bb25eef80b8b32eca7f8263776823e150"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig01_case_buffers.csv",
+      "source": "outputs/figure_tables_en/fig01_case_buffers.csv",
+      "size_bytes": 94,
+      "sha256": "565e1cc114dbc589777e537a3084687b5d914792e8850060f9bf966513d4f5d4"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig01_grid_map.csv",
+      "source": "outputs/figure_tables_en/fig01_grid_map.csv",
+      "size_bytes": 2763,
+      "sha256": "c91f2656d7d25978b52ef1e309f7e0eb355d4fcaadda5441614ecba4f5392293"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig01_hutuo_line_vertices.csv",
+      "source": "outputs/figure_tables_en/fig01_hutuo_line_vertices.csv",
+      "size_bytes": 129,
+      "sha256": "5d64f265dd31e75d789778722a1dd4151dbc5068df74a1bfea2a7644ec64077e"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig02_region_gwa_timeseries.csv",
+      "source": "outputs/figure_tables_en/fig02_region_gwa_timeseries.csv",
+      "size_bytes": 26302,
+      "sha256": "1d8aa911dd00cc5d8d2935e2809eb91a2a1cf1670e08af34f89f6393628e3088"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig03_trajectory_map.csv",
+      "source": "outputs/figure_tables_en/fig03_trajectory_map.csv",
+      "size_bytes": 3295,
+      "sha256": "918971aa3f640246b892d6a39192769463982eed0bdcf389e81f89ed608d1dd7"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig04_trajectory_mean_curves.csv",
+      "source": "outputs/figure_tables_en/fig04_trajectory_mean_curves.csv",
+      "size_bytes": 40199,
+      "sha256": "24530b1a6077dd9a30ed2f421d0982b13eb169a1fd7e83051ffeab64c5b556aa"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig05_recovery_metrics.csv",
+      "source": "outputs/figure_tables_en/fig05_recovery_metrics.csv",
+      "size_bytes": 2165,
+      "sha256": "eaac726105c26323d02900e37982ab839133294c118580ad97119a4aee36cb25"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig05_water_change_by_trajectory.csv",
+      "source": "outputs/figure_tables_en/fig05_water_change_by_trajectory.csv",
+      "size_bytes": 2561,
+      "sha256": "ea56279dfbd3966d2d9dff3eb9daa314476a77cd75aa98b0ad9c8ba4684892da"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig06_case_grid_map.csv",
+      "source": "outputs/figure_tables_en/fig06_case_grid_map.csv",
+      "size_bytes": 312,
+      "sha256": "734f9472c29b73f19f82180c1899c1de2bc71025fc42a74090c382b9a16b21f4"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig06_surface_water_by_trajectory.csv",
+      "source": "outputs/figure_tables_en/fig06_surface_water_by_trajectory.csv",
+      "size_bytes": 2565,
+      "sha256": "862c5d8e481c07dfab13164424ba66bf25f8b21b6ab09c92b65224b589385065"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig07_case_buffer_timeseries.csv",
+      "source": "outputs/figure_tables_en/fig07_case_buffer_timeseries.csv",
+      "size_bytes": 47848,
+      "sha256": "ee308a2355634dbdbe0aed4700c83d31d6bdf0b375192f0ebee72ab763114742"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig08_validation_coverage.csv",
+      "source": "outputs/figure_tables_en/fig08_validation_coverage.csv",
+      "size_bytes": 2965,
+      "sha256": "6f99aa8cc461449207de3ff8058b54a980205e9746f4aa03e26c975df444e0d0"
+    },
+    {
+      "path": "outputs/figure_tables_en/fig08_validation_timeseries.csv",
+      "source": "outputs/figure_tables_en/fig08_validation_timeseries.csv",
+      "size_bytes": 37709,
+      "sha256": "a245d3a38f3e0d2578089d187b691da35f5498e4cfc3b96b55f051359c58b9a5"
+    },
+    {
+      "path": "outputs/figure_tables_en/tab01_data_sources.csv",
+      "source": "outputs/figure_tables_en/tab01_data_sources.csv",
+      "size_bytes": 632,
+      "sha256": "bbb8a1eeafe5e7370077b1c010365c28c63eee070063b4934cd95e4190e7b84c"
+    },
+    {
+      "path": "outputs/figure_tables_en/tab02_trajectory_rules_counts.csv",
+      "source": "outputs/figure_tables_en/tab02_trajectory_rules_counts.csv",
+      "size_bytes": 275,
+      "sha256": "c834c86c178c8a04d778ebbb70ebcfa22493beb3c8d6f2a2b443bc884ec0a2dc"
+    },
+    {
+      "path": "outputs/figure_tables_en/tab03_trajectory_stats.csv",
+      "source": "outputs/figure_tables_en/tab03_trajectory_stats.csv",
+      "size_bytes": 392,
+      "sha256": "ae3352172442dfdd81cca0a2ef29bc4f92ece23e4f24ca90a1c1fb4aed652cb1"
+    },
+    {
+      "path": "outputs/figure_tables_en/tab04_validation_stats.csv",
+      "source": "outputs/figure_tables_en/tab04_validation_stats.csv",
+      "size_bytes": 353,
+      "sha256": "53cc61305a7e5a8d34b1b81fcc2a01eb3de2104f6c5a3f64f3b928c790826903"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/acceptance.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/acceptance.json",
+      "size_bytes": 387,
+      "sha256": "bd72be4829c8a3e9b7b670aaf249065c2481d0729fb97bd803d981b89010878f"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/candidates.csv",
+      "size_bytes": 392891,
+      "sha256": "3b4c183e990867f64a5e40068d03298fce7125b4cc233de316c3f404785f5b5a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/date_comparison.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/date_comparison.csv",
+      "size_bytes": 56020,
+      "sha256": "6c0fa84ad9ec108a6f124caf824abbc58725ce5c41981f9d63e62fb2150e09ca"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/diagnostics.json",
+      "size_bytes": 309515,
+      "sha256": "6b4dab33cd4a0ec8bca65bad05ee3a83604c23cd4409726097cb8858bcdcaf0d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/discrepancies.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/discrepancies.csv",
+      "size_bytes": 148,
+      "sha256": "3d2543332321827a6dec52e3cb0662437cf37a3dc99b815d53e323cae49cfeeb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/selections.csv",
+      "size_bytes": 59608,
+      "sha256": "885977ffe4423032bddd9a4c538bd122ea802d41b4d2f008891503980b48f656"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/baseline/series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/baseline/series.csv",
+      "size_bytes": 888997,
+      "sha256": "61b0cc1f720791e3947360788925564b904c1d7541b3538cb1942d5530308a2d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/calibration/candidates.csv",
+      "size_bytes": 37081639,
+      "sha256": "9e0260bb2282be63c6ad09553057f57e1cb10ec7d7d6eddf7fac04261b2e4746"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/calibration/diagnostics.json",
+      "size_bytes": 19795416,
+      "sha256": "30cc505e270491692222a472ed3737eb724af00435b1b8ae1e318f6327f425fb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/calibration/manifest.json",
+      "size_bytes": 368,
+      "sha256": "6c963d5015dce63150968c9bac567a71f7bd95bbd3aa06c9ade1ba1c3f528227"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/calibration/selections.csv",
+      "size_bytes": 7162069,
+      "sha256": "b3b83036c0479b80f1d8b6df7d5fb2fe241088ff8f8e01ff4b431b7bea621fcb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/truth.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/calibration/truth.csv",
+      "size_bytes": 2123294,
+      "sha256": "6743b5b5b31492f11aab5e238a99c944e68fee428c6261c287383af36902ef7a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/claim_evidence_audit.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/claim_evidence_audit.csv",
+      "size_bytes": 10708,
+      "sha256": "27cc2f834cdb33e6d3fb49cc45a7287efde451b6deaba8692f0f407f4e9beec3"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/block_support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/block_support.csv",
+      "size_bytes": 2898,
+      "sha256": "6c5cee9446fb3a343384a8a42baa108995c63d0d9488b1132fbfb3d81e22b7da"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/cell_trends.csv",
+      "size_bytes": 152845,
+      "sha256": "747a99bfd5b84f75e50acaa513cc69f9f85c6e3d575a793a5ad8f7e966292e40"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/paired_component_correlation_differences.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/paired_component_correlation_differences.csv",
+      "size_bytes": 14164,
+      "sha256": "9d2f4a10e97cd7f99763eaecd66e3950afdddf706baf723e3e78114f0f9f9487"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/trend_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/trend_contrasts.csv",
+      "size_bytes": 22464,
+      "sha256": "2b1b580181a1c92054f456bb1d76d5020ac32589aeb4f7734c170aa7bdb4631e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/well_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/well_correlations.csv",
+      "size_bytes": 48305,
+      "sha256": "c9aa48640a02a821dfb7d5c799636c5662987dd29ca509900befdb517997ef16"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/well_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/archived/well_series.csv",
+      "size_bytes": 70378,
+      "sha256": "b2b5ead67ee66e82ffddf29fa04f5bd67b76b12e2bd08050b516038eabb076e6"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/block_support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/block_support.csv",
+      "size_bytes": 2778,
+      "sha256": "f3f769a7ad25a2c3aff84af4892219b9fb3316bed6ca06bf6e2152048196ccd5"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/cell_trends.csv",
+      "size_bytes": 146640,
+      "sha256": "1593d58822ce449ed36c22cd8254b3925cc930160024fd7adcdf8999dcdffa87"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/paired_component_correlation_differences.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/paired_component_correlation_differences.csv",
+      "size_bytes": 13622,
+      "sha256": "047735bf5271ae1057f778ab01d3083f8dc777e4ff12240fcf4fd700c1521a4e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/trend_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/trend_contrasts.csv",
+      "size_bytes": 21892,
+      "sha256": "b04132d6980a1e7d2302bb763e75b7250caaf58742a922e42dac9b4fdd7a1f22"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/well_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/well_correlations.csv",
+      "size_bytes": 46779,
+      "sha256": "3a2cd5cdecdaee64bd85f6872ba9111a94a66a2c8e33e181faa44e3d93dc3c20"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/well_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era2/well_series.csv",
+      "size_bytes": 68463,
+      "sha256": "03427c600f48802af0526469f1982c7f9d9ade92352c676c9601d265806d8581"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/block_support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/block_support.csv",
+      "size_bytes": 2838,
+      "sha256": "cf16b478200807dd9fe0410815dd4a2694d24aee3828f85d70fece49ec26bebe"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/cell_trends.csv",
+      "size_bytes": 149780,
+      "sha256": "aa3f2468370ea7e27483674ff3b0796ed5705ee871ede0f4b2f5f4cb6cc835e6"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/paired_component_correlation_differences.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/paired_component_correlation_differences.csv",
+      "size_bytes": 13786,
+      "sha256": "9f9b99eeaeab4429d24e422aa9da578478f60ec749e2e1c0913eac38bafb38c7"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/trend_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/trend_contrasts.csv",
+      "size_bytes": 22151,
+      "sha256": "9f846f187817909ac700982d0fe60b6047fcf4d13971a3753610ca08e002c22c"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/well_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/well_correlations.csv",
+      "size_bytes": 47572,
+      "sha256": "3a5c18642129fb27c43ec438aadd196d34649a29f6f60440158f2d23cd6698ba"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/well_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/era289/well_series.csv",
+      "size_bytes": 69541,
+      "sha256": "dbe711fe164b507d228eada5e0feab26d36377c7aa8c8ccbc97f831f2bfe333a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/event_precipitation.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/event_precipitation.csv",
+      "size_bytes": 323,
+      "sha256": "91a4570a8aa11bb540905d8865cf4f418d72a2fa550510530257f474eb9af396"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/observation_support_2015_2018.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/observation_support_2015_2018.csv",
+      "size_bytes": 2416,
+      "sha256": "0971c05fcef07208d976ddd8db475bb7820235cdb64e31d7c4f256ab06083295"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/regional_precipitation.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/regional_precipitation.csv",
+      "size_bytes": 47570,
+      "sha256": "277ac1199921ad906a1d7f1bfdefa0bd49108076f78921c700549fbe782e5e64"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/block_support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/block_support.csv",
+      "size_bytes": 2988,
+      "sha256": "558c9de5c767c158e746793c7799772efd599f50f46592d21e483f13f723c782"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/cell_trends.csv",
+      "size_bytes": 157399,
+      "sha256": "b8eb0687b9bf2dfe4f3d69c77b1b948296be2fa4d7d7b4e5f7992def463e0fce"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/paired_component_correlation_differences.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/paired_component_correlation_differences.csv",
+      "size_bytes": 14542,
+      "sha256": "c1e22859a954956c6e49625ad13e745106bb50a5b995b51d3b252cd47b603c30"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/trend_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/trend_contrasts.csv",
+      "size_bytes": 22813,
+      "sha256": "25fd6eb5b72d8e256d4b7637bde9fe8fe8475abaf3489c407781aa93fa34d546"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/well_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/well_correlations.csv",
+      "size_bytes": 49410,
+      "sha256": "9888ab07b9c504b4b0dc90be4ae30af268e076e7f8feeff71202d3964508c960"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/well_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/shared_noah/well_series.csv",
+      "size_bytes": 72087,
+      "sha256": "6b1ec066b7620b97f78f167b147e7543befa22ed0478456dfbe25795ad370b6e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/timing_boundary.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/timing_boundary.csv",
+      "size_bytes": 4860,
+      "sha256": "9b73178fa97f30985a3d6d840343e10daa33e84f2e1d1f2794c89b8bae8280e0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/block_support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/block_support.csv",
+      "size_bytes": 3018,
+      "sha256": "5b9531767b1df78cba9c2dc6057d93c6966eecebb86274eb6edaec316451e747"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/cell_trends.csv",
+      "size_bytes": 158915,
+      "sha256": "616b86d757f9a7170e145afe58d0eb5bbace1ae18f7cfe703c8a84daccc7cab7"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/paired_component_correlation_differences.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/paired_component_correlation_differences.csv",
+      "size_bytes": 14659,
+      "sha256": "a72bcd8d3599671696608bdc2cd46cb2798aa6671b344361696c9e06aecf2e21"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/trend_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/trend_contrasts.csv",
+      "size_bytes": 22952,
+      "sha256": "b2f08fed3a4cd9e81be5b990160e22ca0c1e5c8750cf1c087f703d72771b1911"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/well_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/well_correlations.csv",
+      "size_bytes": 49761,
+      "sha256": "f1e089bceed0648a559c16d9a9cf590c46f3f9b5328060692c40776f28ab7945"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/well_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/diagnostics/uniform_noah/well_series.csv",
+      "size_bytes": 72591,
+      "sha256": "6ddee3d76386b0b208ababe54cd62904b6edef2c0b3f066374c545974bfe3569"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/manifest.json",
+      "size_bytes": 1022,
+      "sha256": "985bfcb15d351f584f8f3826f16927d88d955ef8d4236b696181e234c4ee8ece"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/mask_acceptance.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/mask_acceptance.json",
+      "size_bytes": 177,
+      "sha256": "a23dc007289e1920c2706048cb90b29f03b8fbadd6f203b86ac154ffe8ca32a9"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/monthly_absolute.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/monthly_absolute.csv",
+      "size_bytes": 1445773,
+      "sha256": "679ca818cf09945d92c173f12216629a445285cf406065887467fa6e0551e0fe"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/monthly_anomalies.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/monthly_anomalies.csv",
+      "size_bytes": 2913963,
+      "sha256": "6a642caf9f30c565bfea257d97d45bb8501eafbba5893a48b0ec6bd7378a86e4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/specification.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/specification.json",
+      "size_bytes": 555,
+      "sha256": "872e2c16df7fd95ab4abc4893777383f12b6f793ae35a2f8d7595258375fb783"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2003.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2003.csv",
+      "size_bytes": 67877,
+      "sha256": "64846dc2aaa16b0ca4c6ac4256bd50e714ebc921a1192a89f66108fc9f6ba719"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2004.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2004.csv",
+      "size_bytes": 67864,
+      "sha256": "493294cfa31d16f103398cd21ccd0fee85da0b930b5de81a5910578a9c6a95ae"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2005.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2005.csv",
+      "size_bytes": 68124,
+      "sha256": "b6a95190d4994989bcd340d51185c93c26b84377201e72d885f9d97067758f1a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2006.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2006.csv",
+      "size_bytes": 68259,
+      "sha256": "7fa967761d9a3b6faab0090c9a75d3f7d07c75f3b35b68cb296d82296a04fcd0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2007.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2007.csv",
+      "size_bytes": 68773,
+      "sha256": "97c6f52184091f8bc66dd0c5c31b867625c6173a03bd90fc294533bc73ae64df"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2008.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2008.csv",
+      "size_bytes": 68554,
+      "sha256": "e9443e06c4f1214b0bd34a9f7e537ef84d6c5fecbeb7af418f1104d2950e75d2"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2009.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2009.csv",
+      "size_bytes": 68640,
+      "sha256": "d33ee00e6bf0046f5bc2633a26d2bdd1a1f59af194932c6fc0b885d7dbf620ee"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2010.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2010.csv",
+      "size_bytes": 68402,
+      "sha256": "3a8005120a9c3fef5fc80a015734280c73ba2a232cf467b171b40a02763349d9"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2011.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2011.csv",
+      "size_bytes": 66846,
+      "sha256": "7eda0832e20a66b132f3cded7e74dcd3b6f4e3fd79ff6a0bf3e7482482ff79f7"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2012.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2012.csv",
+      "size_bytes": 67432,
+      "sha256": "7f7f3ee4acb890e450585f7c23f638822183b820ddce5e9f0d05f1a177d87098"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2013.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2013.csv",
+      "size_bytes": 67099,
+      "sha256": "ef3f32a77609e110abdb551fa507994b9bef5d2732bc336f638eec1bcd62f2c0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2014.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2014.csv",
+      "size_bytes": 66709,
+      "sha256": "4c9296e4a6301d041041490217bf2f4ef7a926a50f6d29d49a68c1d26d987492"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2015.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2015.csv",
+      "size_bytes": 67103,
+      "sha256": "ec6bd4c016746d5c8767b8e3e90bcecc20d1a3e1e2cb8bf9e905b966e8a83d7e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2016.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2016.csv",
+      "size_bytes": 66094,
+      "sha256": "8d8de4ccb08472a6cc510f9fc8a484dc323601ffc24e9cc897bb1a09be04f471"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2017.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2017.csv",
+      "size_bytes": 64746,
+      "sha256": "9ce27996c4878c4e0a4c6606f5c4fa5fb5edac05cba97092a9c3ba98b203a5fe"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2018.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2018.csv",
+      "size_bytes": 65193,
+      "sha256": "883f06ea7f7f62029f9fdfe79212563d1406356db6eca5eeb754cab358173df3"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2019.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2019.csv",
+      "size_bytes": 68182,
+      "sha256": "9fc54fd1d037db030fe768766e2835f9c7039fcad3fcd25ea83904f4376aace3"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2020.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2020.csv",
+      "size_bytes": 68160,
+      "sha256": "1f39355619509b43ca81ec2e11f5d290af19b89ee58f130feb5e3148dd3f3abb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2021.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2021.csv",
+      "size_bytes": 68187,
+      "sha256": "03d3a69909e9bc6b6c04fca359bff416990067f36addd2b7ca73b657ac66aab2"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2022.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2022.csv",
+      "size_bytes": 68612,
+      "sha256": "d8d01279d6ce5daaf768723b4467a0cbc09ec6d0a08537a50da0d93f21a4dcf4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2023.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2023.csv",
+      "size_bytes": 67702,
+      "sha256": "dc78cc8c37a18cfe5198429786ef2a505f5d2e2e2379b3154246280ef848c85b"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2024.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/extraction/year_2024.csv",
+      "size_bytes": 45242,
+      "sha256": "1e80f89565e14a2f99c1c196b70989ef3073ba18b443d994826c926d66257cf4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_evidence_ledger.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_evidence_ledger.json",
+      "size_bytes": 10214,
+      "sha256": "a6f4fb79cd8e021b294c2f64413ddd0a18f567fd4ad3c1d1a8ceb9aff4ff1670"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig01_analysis_cells.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig01_analysis_cells.csv",
+      "size_bytes": 2735,
+      "sha256": "85b8bdc89fe49399d877bbbb83a73d0e7a8052c4c9b08063edb14fe857177edb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig02_regional_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig02_regional_series.csv",
+      "size_bytes": 25402,
+      "sha256": "864cfaa31717af260ef3146f0f0d58a8d74cd17cfc5be96dfa9899b0eada72dc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig02_sensitivities.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig02_sensitivities.csv",
+      "size_bytes": 1757,
+      "sha256": "746f33a58233803f7439f41abe1707a6f79e6ae6cfca7e9fdd41d3b61c6a2dcb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig03_dates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig03_dates.csv",
+      "size_bytes": 69374,
+      "sha256": "543df74ea0e309a1442e6fda7387b15e8af84cee20d399af25551282e79ac1dc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig03_endpoint_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig03_endpoint_contrasts.csv",
+      "size_bytes": 706,
+      "sha256": "de0820d38553dc8e12b1fd928669ffe61f8258a974f4b5b04982ef1bb263b72d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_candidates.csv",
+      "size_bytes": 62858,
+      "sha256": "c24e415545259f6b9fa537b5be8b6b240cec8b85db2364052910b539c3d8caa4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_selections.csv",
+      "size_bytes": 8171,
+      "sha256": "c0342e77c94ed0dc879b64748f1aedabb4508521895c63537168d7603c9c7d88"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_signals.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig04_signals.csv",
+      "size_bytes": 1865339,
+      "sha256": "2c91ed1d27e0e18008b43721fe9c14073e78d3177e47750bce2d9111c8fbf84c"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_conditional_errors.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_conditional_errors.csv",
+      "size_bytes": 12893,
+      "sha256": "b6ab45599040486f3dc892cb04a5c90a742970aba25e5a5dc15318099fc2a5f9"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_false_reports.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_false_reports.csv",
+      "size_bytes": 2785,
+      "sha256": "441a415d4f748f01b697c374ba6c82b1f61627c1134c37c6ff8260c3c2aa8bbc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_summary.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig05_summary.csv",
+      "size_bytes": 21407,
+      "sha256": "3ec2b4a223d36c9a1a5515291706cb89f95c891cbb4c7381d2177a64f0a3d8d8"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_component_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_component_correlations.csv",
+      "size_bytes": 1088,
+      "sha256": "517ccf215ed7ab93ddffe3a518738cc05f3a179cb68629194e8c58f47d8525ab"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_date_agreement.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_date_agreement.csv",
+      "size_bytes": 539,
+      "sha256": "1e0ef755a664833ac4850171083b30333e9da29467cd6976cfe088237fbb4979"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig06_series.csv",
+      "size_bytes": 71845,
+      "sha256": "d887f33c7d7ad260b5e65dcb062c459552958600d906a546409d4d74b478f9e1"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/calibration_search.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/calibration_search.csv",
+      "size_bytes": 57680,
+      "sha256": "4ed5ea0a8cb0077c43e2d214803aa4e10b4bfa14ef41c0dda1fdce59d1778e1c"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/endpoint_date_contrasts.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/endpoint_date_contrasts.csv",
+      "size_bytes": 709,
+      "sha256": "c50c8b210486ecc695d0bf451a3ec2cb065cee25c8638453325f2152f3457d14"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/illustrative_simulation.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/illustrative_simulation.csv",
+      "size_bytes": 12184,
+      "sha256": "8a40dbfb38bf5dc8a5f8bfbcf58c96c21aed9b66f5e81de56dba27a84b4bdbfb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/original_rule_validation.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/original_rule_validation.csv",
+      "size_bytes": 2898,
+      "sha256": "31fefce5bf13ca6d8e34981df695bc1863ef4d32e97b144d82df1d73d80e967e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/paired_gap_effects.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/paired_gap_effects.csv",
+      "size_bytes": 7027,
+      "sha256": "5e44b86e15f455961a4cc9041b22e3efbd1720591c0f22a652e5a9801ddca773"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/real_endpoint_stability.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/real_endpoint_stability.csv",
+      "size_bytes": 1269,
+      "sha256": "6df5959d91278c6e0ac2b7f86faefd94cc70894cac83e5f5cff009b5ac857bc0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/real_reportability.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/real_reportability.csv",
+      "size_bytes": 1283,
+      "sha256": "f819bd26f51cde1db5a26be64d0199e9d980b770507df35e93171ecc0088ed01"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/real_selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/real_selections.csv",
+      "size_bytes": 69374,
+      "sha256": "543df74ea0e309a1442e6fda7387b15e8af84cee20d399af25551282e79ac1dc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/real_simulation_coverage.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/real_simulation_coverage.csv",
+      "size_bytes": 11941,
+      "sha256": "32f94103d0a04d8f821aa396a20c0e2b069deed5cce0eae2c7b38322626e629e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/rules.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/rules.json",
+      "size_bytes": 179,
+      "sha256": "cd7756b46675fa34bda8b1c34f48d9d04d403630ed7908dab551f61910a61b0a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/seed_audit.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/seed_audit.json",
+      "size_bytes": 173,
+      "sha256": "b06e05b341ec2f0c55b96108e41be14361201edfaee688ce07134e75ef0eadbd"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/ssa_capped_calibration_tasks.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/ssa_capped_calibration_tasks.csv",
+      "size_bytes": 576,
+      "sha256": "d55dccdb5846d476acc102552f71555ccf8620eb4c42c11136de77ef986b782b"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/two_stage_summary.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/two_stage_summary.csv",
+      "size_bytes": 21616,
+      "sha256": "350f30a804e22374ce0ed8e515c2e5e430b0285ed023055112692ecbbc9ffbc0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/inference/two_stage_trials.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/inference/two_stage_trials.csv",
+      "size_bytes": 6483282,
+      "sha256": "5494f937d612378b79ea28b714d2255041e33dfcc72a5ed37dfa622475765eb1"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/journal_guide_check.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/journal_guide_check.json",
+      "size_bytes": 210,
+      "sha256": "85b13143b62433fc79c70b4ea0b960c5f1b116b281e13beab706f75964cf3b66"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/candidates.csv",
+      "size_bytes": 656494,
+      "sha256": "822253755a3bf4928d4b427833cd8b886d8cc19a75badeb99e07da0a541f2ef8"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/common_mask_changes.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/common_mask_changes.csv",
+      "size_bytes": 1805,
+      "sha256": "011a91b5dcf5b4612291444f8a40a6cbb47d762ed0d9af71063e73b40d76a71d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/diagnostics.json",
+      "size_bytes": 467693,
+      "sha256": "3efc7c1501cddcb3f05c5f7b741edd11d3c99037d54c67c74679ffb69d268ff0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/land_model_date_comparisons.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/land_model_date_comparisons.csv",
+      "size_bytes": 73141,
+      "sha256": "cdc3d5978cb7fd008e28685779e9b0a2261c3c447deb96e67702a7b349fffe95"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/land_model_timing_summary.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/land_model_timing_summary.csv",
+      "size_bytes": 1429,
+      "sha256": "aa7b7da3fe6e41dbd149ec651aeb638994c99d4a99538a83a8d891fe595a6cd6"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/manifest.json",
+      "size_bytes": 250,
+      "sha256": "bc84d60c424073a4cb238691fe15634fded05ecd1a79edf6d31d9c3a10acd552"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/selections.csv",
+      "size_bytes": 99383,
+      "sha256": "468a4ab05b6c90ccd20581f06c66024238fccbda105585b4028ad63123730975"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/land_models/series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/land_models/series.csv",
+      "size_bytes": 1523218,
+      "sha256": "d5c4c0311a3b84b97688978e5c63e7aad5a2e9e6d90e00b2be1844719b740a4e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/local_reproducibility_package-r2.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/local_reproducibility_package-r2.json",
+      "size_bytes": 630,
+      "sha256": "86850aa99101140faf22285cd5def0a92d43e05ca98ec3f5e4178fe12ca652b1"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/local_reproducibility_package.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/local_reproducibility_package.json",
+      "size_bytes": 734,
+      "sha256": "2acf6e99c2bd0c3f8fa81f5f34320fd0f46fa0310cce8ca0e98416598d7f1967"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/path_override_acceptance.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/path_override_acceptance.json",
+      "size_bytes": 268,
+      "sha256": "41b06588b3b271c71913eb82a9db8b695da26c3c661c92867fc4b11244b442f9"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pdf_delivery_correction.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pdf_delivery_correction.json",
+      "size_bytes": 1249,
+      "sha256": "dda9736d79055c1a15d958d5b32ff1088bc3e477d9d196c8217cab47079c05a5"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pilot/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pilot/candidates.csv",
+      "size_bytes": 3846070,
+      "sha256": "bdd59254c42d4b9fba6ea4ff321a1df1fa4b444c9d7a6a9937e658a071c919cd"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pilot/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pilot/diagnostics.json",
+      "size_bytes": 2018529,
+      "sha256": "44e43906c7cff65cbcb9443b8f5b241b2b981717f0876ffddd945773a0ed2f0e"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pilot/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pilot/manifest.json",
+      "size_bytes": 363,
+      "sha256": "e61f8d473b0dd31e9db6cb848ed337404cd376e4750aba78f113bb37247aa905"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pilot/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pilot/selections.csv",
+      "size_bytes": 740273,
+      "sha256": "1314466c1ec9cef62b118a3eb20233a229802ac172b547bdd4edcff1c20bf699"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/pilot/truth.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/pilot/truth.csv",
+      "size_bytes": 216716,
+      "sha256": "b3cb422cdc4dced500e75c73b82f70786e1db00355f6ccadcb6373c3eeb2594a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/processing/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/processing/candidates.csv",
+      "size_bytes": 63126,
+      "sha256": "3955296504250b66bbcbc8b83944ad05a7b02c45af0102206cfa3608b3ec0db2"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/processing/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/processing/diagnostics.json",
+      "size_bytes": 51040,
+      "sha256": "9f6d7baa01803f7a6218822d41424de7e161fd361b61db9009ecc76b156d5143"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/processing/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/processing/selections.csv",
+      "size_bytes": 8171,
+      "sha256": "c0342e77c94ed0dc879b64748f1aedabb4508521895c63537168d7603c9c7d88"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/processing/series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/processing/series.csv",
+      "size_bytes": 1885533,
+      "sha256": "ca41119c19bbb54d94d8286fc3f932085ab279a0513a793920b9257f13688601"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/project_verification.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/project_verification.json",
+      "size_bytes": 374,
+      "sha256": "9d58fda556c27a2b4f73b3f2fec2fbb25b36a37eb18752d7347beca0d72996a4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/acceptance.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/acceptance.json",
+      "size_bytes": 35,
+      "sha256": "31b72714ffc0464bbe8256a2638f43dc61f40cea970d3f4c3259b41e1d253639"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_01.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_01.json",
+      "size_bytes": 304702,
+      "sha256": "efde6122b3820bae76636bfebad9d9b470696d87d6e14aafb5488c092a95fe8a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_02.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_02.json",
+      "size_bytes": 304197,
+      "sha256": "5467bd2bd497b376cb00e68ba66f949f65f59364d1e1ef6009afcac6725968c0"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_03.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_03.json",
+      "size_bytes": 313397,
+      "sha256": "33bd41d25e3bcf25583991923b61bff7e47580ed1194ca4b18d0254c9bdc6d62"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_04.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/actual_04.json",
+      "size_bytes": 315665,
+      "sha256": "123136942a935c9a0045ea2ab9a6df015015d3fd0c65b1f2e329e5d054be3c12"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_01.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_01.json",
+      "size_bytes": 19326,
+      "sha256": "e22ccae3f839bb86df9172476cd96f18a9e0c42b3c9d2a63389123061329ccfc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_02.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_02.json",
+      "size_bytes": 18492,
+      "sha256": "41f84f9ed3a7aa758469bec6bf7ebbe910f075620eebcac22c79e08a60cf1466"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_03.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_03.json",
+      "size_bytes": 17572,
+      "sha256": "c252afea49ea38d2500b15173bdf3e105bb50c8172985fca5b8fcdd1576225fb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_04.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_04.json",
+      "size_bytes": 20318,
+      "sha256": "3eb7c97ebef98007278682d1159f6e4cba52c09ca7e6b0b24b60feb9909ff60a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_05.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_05.json",
+      "size_bytes": 17773,
+      "sha256": "b2110651b7632a12299ae39af4d3f0c50d52432631e9caa6acaef793d1bc7cf5"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_06.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/repeatability/synthetic_06.json",
+      "size_bytes": 17666,
+      "sha256": "507afa8a7d53f12c39f0b77b797fcb8af7207288aef6645976b0f78466c0f573"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/retained_failure_audit.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/retained_failure_audit.json",
+      "size_bytes": 940,
+      "sha256": "859256b3d5d3504a2bc76ca81c047f2991bac64fd921a023daa4775ce71c7dd5"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/source_snapshots/ncp_monitoring_core.py",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/source_snapshots/ncp_monitoring_core.py",
+      "size_bytes": 8600,
+      "sha256": "a980de57d9b95eedc0362f537a58d8edad1b3e3823de83a7625026fbb9d4d523"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/source_snapshots/ncp_monitoring_revision.py",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/source_snapshots/ncp_monitoring_revision.py",
+      "size_bytes": 10628,
+      "sha256": "20a9949454417db778d4cc505ddc2e66cb5db46ab92cb088ad73cfea454f4760"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/supplement_figure_numbering.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/supplement_figure_numbering.json",
+      "size_bytes": 3512,
+      "sha256": "39cf7fd1e86722be80ed00143ee90d8be36a738c2c3d572fda3b47feddf0d056"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/supplement_table_numbering.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/supplement_table_numbering.csv",
+      "size_bytes": 247,
+      "sha256": "5752b1d561fb5eb80d0b1ac0cefb46a5a0a59c9af30e99e141c7c407e8e437f4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/two_stage/candidates.csv",
+      "size_bytes": 23338917,
+      "sha256": "b3992006a3845c3c87b417a46263d4cae670c1b18733cf61024421ddf6f04a07"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/two_stage/diagnostics.json",
+      "size_bytes": 12231425,
+      "sha256": "bc2890a7c1679e95a000abf425f0670462d2b7c48aee923759c88a559c62f9f5"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/two_stage/manifest.json",
+      "size_bytes": 367,
+      "sha256": "06b531e82d405d1405c4ee2b1d5cca63bf0f6208f6fdca0cefcc3d30d7e50098"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/two_stage/selections.csv",
+      "size_bytes": 4449643,
+      "sha256": "9f9cd1b26597823870cb6060cfd63c8af50e99a70e5d6ebba356b6dd93b9fc8d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/truth.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/two_stage/truth.csv",
+      "size_bytes": 1294777,
+      "sha256": "a8edca3578aad824da711382b6ee5665d8d9422af359fc891c494754addaf279"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/candidates.csv",
+      "size_bytes": 48139,
+      "sha256": "255634016a13c5be04b2255c92014a95b8ed437c12161deeb21b4f7b7488841b"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/date_agreement.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/date_agreement.csv",
+      "size_bytes": 3227,
+      "sha256": "f8f4cdf633da1ccf0a1ddaac02b9d5e575150c92a283dc620f0e4c0f976f1bdd"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/diagnostics.json",
+      "size_bytes": 34087,
+      "sha256": "3f2b6b5df4fd40d441f9c477046b68af119e9560d813aedbc73fcb95999ad209"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/input_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/input_series.csv",
+      "size_bytes": 3218388,
+      "sha256": "752ec1b8d0eba34f8d3b2aaf22070551977dc08827556c5ff0f41a41761e65d3"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/local_selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/local_selections.csv",
+      "size_bytes": 36694,
+      "sha256": "8f417b53317132fef971a5d37460b43b828a1d7a393ee36872880112981ce2ec"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/manifest.json",
+      "size_bytes": 157,
+      "sha256": "3d5b0cc28b9d4a390643f09cfec6971bc0d8e076c30f7bc24c05d9fe0a51f299"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/paired_dates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/paired_dates.csv",
+      "size_bytes": 52108,
+      "sha256": "713641dbff41ade35b5fe0f00093896d637d12e74f017f55b64e19fc24bb967b"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/selections.csv",
+      "size_bytes": 9340,
+      "sha256": "dcecadc72bd882313742d3bfeae9d3d7e78013cac326d266eb0bfe5a360ddda7"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates/support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates/support.csv",
+      "size_bytes": 12320,
+      "sha256": "684ec6a55628b545d1c9446f8b87c3932c3b259f89871cb001cfb3c0cde04937"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/candidates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/candidates.csv",
+      "size_bytes": 32959,
+      "sha256": "f0f68c2220ab4b2a94e2fd5ddcdac9933892922cd795d927b284b4274b225b5a"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/date_agreement.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/date_agreement.csv",
+      "size_bytes": 4175,
+      "sha256": "a7e6d2bce3966b8fd3f4412d7f236dced09e673a7d21550634dcba283ef754ee"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/diagnostics.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/diagnostics.json",
+      "size_bytes": 101877,
+      "sha256": "da0bd167caedfbdf9b08b80d6c405791828b3bca7382c1273e532c1310bfe42d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/input_series.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/input_series.csv",
+      "size_bytes": 1035796,
+      "sha256": "d388bfc31a49572e2af2fd77202cb67690de5dc0f99290b40f2fa14eb25f3043"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/local_selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/local_selections.csv",
+      "size_bytes": 34287,
+      "sha256": "2dc4fbceeb61c754c2f318c99b4b0b8ef4f1e7c3c8579a58ba6eeaad14d115b4"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/manifest.json",
+      "size_bytes": 183,
+      "sha256": "48d56938296792b06a6158e3a727a9a39b045abd9d59d59b4f47e1a4674eb243"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/paired_dates.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/paired_dates.csv",
+      "size_bytes": 49437,
+      "sha256": "a96db7633cd95f0c577f829b44a5f6c4b85672a7f9def27d77d9b71aee5e5f0f"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/selections.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/selections.csv",
+      "size_bytes": 26614,
+      "sha256": "31c8546403ffe0269a8103c98127f1f8eb1de787176c88fc57afd3fd29b1807b"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/support.csv",
+      "source": "outputs/monitoring_revision/2026-10-18-r1/well_dates_2018/support.csv",
+      "size_bytes": 10823,
+      "sha256": "5a334c3e5bd44f1998fc8a50a17b447812f5efe2735bc474b8f201407a983796"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-cell-trends/cell_well_trend_summary.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-cell-trends/cell_well_trend_summary.csv",
+      "size_bytes": 886,
+      "sha256": "65efb9fdbba6ecf3f5bcda1d8c5b28f8f06d88d6187065ccdf1bf544d4c2cf37"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-cell-trends/cell_well_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-cell-trends/cell_well_trends.csv",
+      "size_bytes": 4313,
+      "sha256": "f09c54118cc227774f8f053b8c6aa5bb86a54754005c70089d36657480f2ba6d"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-cell-trends/manifest.json",
+      "source": "outputs/monitoring_revision/2026-10-19-cell-trends/manifest.json",
+      "size_bytes": 388,
+      "sha256": "5dc3ff169c7bb8a841298cb665ab70a0f8d10406eb15f54c825803d89d8555be"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-figure-tables/fig02_sensitivities.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-figure-tables/fig02_sensitivities.csv",
+      "size_bytes": 1762,
+      "sha256": "f0a5bd48e11ce3a9ec80bdf414b94a4983716763dbda69e10b3ef858e4133d98"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-figure-tables/fig05_false_reports.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-figure-tables/fig05_false_reports.csv",
+      "size_bytes": 2785,
+      "sha256": "441a415d4f748f01b697c374ba6c82b1f61627c1134c37c6ff8260c3c2aa8bbc"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-figure-tables/fig06_cell_trends.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-figure-tables/fig06_cell_trends.csv",
+      "size_bytes": 2233,
+      "sha256": "9ebf8d6ac8b66516f8585807ff6fdb3acc6be8bfd2b4e76c8e4a8b837362b0fb"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-19-figure-tables/fig06_component_correlations.csv",
+      "source": "outputs/monitoring_revision/2026-10-19-figure-tables/fig06_component_correlations.csv",
+      "size_bytes": 1088,
+      "sha256": "517ccf215ed7ab93ddffe3a518738cc05f3a179cb68629194e8c58f47d8525ab"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/annual_climate.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/annual_climate.csv",
+      "size_bytes": 14192,
+      "sha256": "520860f05c46610b2850a4a151af9b223718f735dfbaac911e9951dc43005bf8"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/aquifer_validation_metrics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/aquifer_validation_metrics.csv",
+      "size_bytes": 5897,
+      "sha256": "98f888666e8a4430f6dcbe15c969c9ee10ca932cee661558e559b415fbf0ca7e"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/aquifer_validation_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/aquifer_validation_series.csv",
+      "size_bytes": 67669,
+      "sha256": "6cbb92de3b671a28df570ada6e89b858f6a779c62a203b21f5971be982e8c56c"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/beast_candidates.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/beast_candidates.csv",
+      "size_bytes": 16943,
+      "sha256": "89c82fcd172eb96e0455d982d07401adc652a70b9ea90c405b8ba6bbd67d3132"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/confined_common/validation_metrics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/confined_common/validation_metrics.csv",
+      "size_bytes": 1573,
+      "sha256": "8807e1323c5ceb0f4945185a8d4eb0de78f01b067b8ff5e672b51f00dcbcaeed"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/confined_common/validation_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/confined_common/validation_series.csv",
+      "size_bytes": 13228,
+      "sha256": "6700a5534ecff7fb22d4abfdc6c09bd374686d713f35abc9db88568abb325c21"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/confined_own/validation_metrics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/confined_own/validation_metrics.csv",
+      "size_bytes": 1571,
+      "sha256": "68b27aad7d1b0c838f45cbdf6acbc5d71f017f96ac1e0b7498ef3241209d841e"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/confined_own/validation_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/confined_own/validation_series.csv",
+      "size_bytes": 13218,
+      "sha256": "d2acf589e3a364c091e8e0b224e1966c00ee3df21368b800d33ffb5727944657"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/deseasoned_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/deseasoned_series.csv",
+      "size_bytes": 445772,
+      "sha256": "fa5be97a1b58187ef047502c8b1c97185a829f7df5cf364f26dc73b2f711f0dd"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/candidate_rule_choices.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/candidate_rule_choices.csv",
+      "size_bytes": 13697,
+      "sha256": "4f1d3ad0f00b5172e7c2867f1f917d5423f7e6a0a2f7e2672f9a0d1fb0ce48de"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/candidate_rule_summary.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/candidate_rule_summary.csv",
+      "size_bytes": 301,
+      "sha256": "b156760d37789af9d768a8703571d5d09cc22ea18dfb0a7392093e76be7bc321"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/component_aggregation_audit.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/component_aggregation_audit.csv",
+      "size_bytes": 2189,
+      "sha256": "98967ed4c9e8d00a985a41695772b72ed1f817b274af9e9069c06d053956e8d6"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/component_support_sensitivity.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/component_support_sensitivity.csv",
+      "size_bytes": 1823,
+      "sha256": "688400af23fcaabd66f7d0f22d2a42fd80212d5bbaca1b4910e1ee8fb2e2d3cd"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/component_well_diagnostics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/component_well_diagnostics.csv",
+      "size_bytes": 2595,
+      "sha256": "f33ab61ef028e8137b0eccd497d28df9c2f3f766d6430d2a68a33a7f01e8fba4"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/diagnostics/manifest.json",
+      "source": "outputs/review_revision/2026-10-15-r1/diagnostics/manifest.json",
+      "size_bytes": 827,
+      "sha256": "3e7e69700cd3fc786b7d72a4115b61c5b2b211b991a1fbb7961402c8daa0a3db"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/endpoint_eligibility.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/endpoint_eligibility.csv",
+      "size_bytes": 867,
+      "sha256": "d1923ac90e62a654418746e48da7061919ba8cdf17afeb8f37d600cf5fa2ad63"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/fixed_window_cell_slopes.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/fixed_window_cell_slopes.csv",
+      "size_bytes": 10444,
+      "sha256": "88acce64d73b68c8027cba1c53baf28f49bc922ee11d2972597b009a2ec5fd9d"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/fixed_window_spatial_contrasts.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/fixed_window_spatial_contrasts.csv",
+      "size_bytes": 4619,
+      "sha256": "ebe13a6f677a4c59211a2c097e3507ad64c6c76cda351a2afa5e16e5d1ad17c6"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/gap_simulations.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/gap_simulations.csv",
+      "size_bytes": 6165,
+      "sha256": "e584a6cca352c57384ebcb00c5bfd8d46947a8f88d670d2221fcf155ad9de191"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/manifest.json",
+      "source": "outputs/review_revision/2026-10-15-r1/manifest.json",
+      "size_bytes": 1761,
+      "sha256": "f1be15072f0de6999d69634ed108a7b83c22b25d0c2943498e113e211d98752a"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/rolling_breakpoints.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/rolling_breakpoints.csv",
+      "size_bytes": 64684,
+      "sha256": "a33175a9da1128ac9a6ccdbf4a29ea7e9662caa537e00b40f55219305b112c8a"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/rolling_stability.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/rolling_stability.csv",
+      "size_bytes": 1493,
+      "sha256": "190f7eff7c04c07b1bf45c25bcac56f73de816f63769f4d643e140000de2560d"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/rolling_summary.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/rolling_summary.csv",
+      "size_bytes": 284,
+      "sha256": "90f480de74f86cc59876aaef1575d4cca048ee950f6f1d530437e2f47c7d8888"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/selected_slope_origin_sensitivity.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/selected_slope_origin_sensitivity.csv",
+      "size_bytes": 768,
+      "sha256": "2e9935fad79400e137aa1165edae21d44e103a9b6b6f599485c493f51a04d976"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/shape_comparison.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/shape_comparison.csv",
+      "size_bytes": 13058,
+      "sha256": "5579035d9340bb3632eda1c8d9ee07997ec2d577657c3fb8c9f8dbc1cc39acbf"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/shape_fitted_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/shape_fitted_series.csv",
+      "size_bytes": 844152,
+      "sha256": "5cdc6717e9778dd9c7dbd5bdc5c79fcf4e65715284e1bfb559b8966c9831c3ed"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/unconfined_common/validation_metrics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/unconfined_common/validation_metrics.csv",
+      "size_bytes": 1585,
+      "sha256": "8389626824799b0a11545c0ff82c8d90ee9ed263b71de1fd66bf9c33afbd8c59"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/unconfined_common/validation_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/unconfined_common/validation_series.csv",
+      "size_bytes": 13236,
+      "sha256": "6d21f2f487cb6e5b76e66bb4332b420196743ac1579f31501af19d781280444d"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/unconfined_own/validation_metrics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/unconfined_own/validation_metrics.csv",
+      "size_bytes": 1581,
+      "sha256": "5d3e9e892ce9a2878eda368f0c1488434267ad94ee0cb3412b3b272399019713"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/unconfined_own/validation_series.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/unconfined_own/validation_series.csv",
+      "size_bytes": 13243,
+      "sha256": "a89fca8ed47613fe4c89a5cdf561852adf8e8e877154187d4c239dbc7c78d43d"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/well_cohort_inventory.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/well_cohort_inventory.csv",
+      "size_bytes": 120,
+      "sha256": "42b2d9a5aaa160ebb45d640f93d95d8af711c9fe0491259cf2c2dbe799d039bf"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/well_lag_diagnostics.csv",
+      "source": "outputs/review_revision/2026-10-15-r1/well_lag_diagnostics.csv",
+      "size_bytes": 3918,
+      "sha256": "a2181e19978809e4a378001ad7e22833607cfb13350d324eb5b6b9e49a2f96c5"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/actual_candidates.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/actual_candidates.csv",
+      "size_bytes": 381709,
+      "sha256": "cb5c0a6b33fa39fc5b54be33a86eb0c3ef0f96ea9952254ebd6e3d8c0cb04d86"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/actual_diagnostics.json",
+      "source": "outputs/story_revision/2026-10-17-r1/actual_diagnostics.json",
+      "size_bytes": 137387,
+      "sha256": "a8e78a581c587e053299679c68d55d283663f747e5ab7a77bf994ec2c6d72767"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/actual_selections.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/actual_selections.csv",
+      "size_bytes": 111072,
+      "sha256": "17be8c8668f9e8ce1d7938727909de4c103d90d24b05eecaefdd6352d5572116"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/actual_series.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/actual_series.csv",
+      "size_bytes": 1339220,
+      "sha256": "388e76916da45d873fbf6e53956ceb323f5d4d867c2e8118ece4b302c181238e"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/actual_summary.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/actual_summary.csv",
+      "size_bytes": 1867,
+      "sha256": "5a5905ea2ad8bb94f88e5e870bdd274f557cd55fb38a016d4fb0011fff0d7331"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/component_correlation_intervals.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/component_correlation_intervals.csv",
+      "size_bytes": 4405,
+      "sha256": "72d19396c59126372493fe352e61bfbf789d98dfebd023779f5ba17a670cc441"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/convergence/manifest.json",
+      "source": "outputs/story_revision/2026-10-17-r1/convergence/manifest.json",
+      "size_bytes": 493,
+      "sha256": "6610cb1627812da738619939f00ea765dd85dd2a742922ede2ab586ac83ad09e"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/convergence/ssa_convergence_check.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/convergence/ssa_convergence_check.csv",
+      "size_bytes": 404,
+      "sha256": "db0b68e2a82c51beabd40362f7357814f6f9633296bb4164818cb9ab40414e79"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/endpoint_transitions.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/endpoint_transitions.csv",
+      "size_bytes": 38412,
+      "sha256": "997f1b329948e5fafc6aa61186557ffe7a23389c6ae4747d19ff13c8d1a31164"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/manifest.json",
+      "source": "outputs/story_revision/2026-10-17-r1/manifest.json",
+      "size_bytes": 3402,
+      "sha256": "a32522d701fe6ee7e714b5338ddaad3310d53508e94c9fbf59de12b311cc22b4"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/paired_route_dates.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/paired_route_dates.csv",
+      "size_bytes": 8737,
+      "sha256": "a0a5fe26263004f8bd819d6e7eb3bed33af2087e872b8b79a5ef961d8882d215"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/reporting/manifest.json",
+      "source": "outputs/story_revision/2026-10-17-r1/reporting/manifest.json",
+      "size_bytes": 254,
+      "sha256": "6f2051a874fcd8151b6d2e4c63741fd78f6720bef64dd7505a3c2e4b75fc279f"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/reporting/stability_tolerances.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/reporting/stability_tolerances.csv",
+      "size_bytes": 3341,
+      "sha256": "8d7408f7a0fa1a5c3717a332e8cc501d5dfdf729fa15428f4fe8cf4e3524cb82"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/manifest.json",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/manifest.json",
+      "size_bytes": 1374,
+      "sha256": "60a5ff1653dec409b813743aff68ea58d6fa1f0c935d88bf6d57dcdcfaeb8f03"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/mask_exclusion_timing.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/mask_exclusion_timing.csv",
+      "size_bytes": 964,
+      "sha256": "9fdc31cec6168f4e2b11224981ed58f3c5020667120df0f579a7f6c40c35aa49"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/settings_candidates.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/settings_candidates.csv",
+      "size_bytes": 30079,
+      "sha256": "cfea2f1d51306e1582470bf8d306c7370544dd63d65420eab4a06452489f87f6"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/settings_diagnostics.json",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/settings_diagnostics.json",
+      "size_bytes": 23388,
+      "sha256": "3e1a42f1fa020012240cbcc27dbb64bfeca4a8a2eb8aef9e2fbedd6ce62475f2"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/settings_selections.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/settings_selections.csv",
+      "size_bytes": 9208,
+      "sha256": "78381f660a5423af7bc125583de0160a8c88618676c561614503c4482705af04"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/settings/timing_contrasts.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/settings/timing_contrasts.csv",
+      "size_bytes": 3455,
+      "sha256": "2e2accd29bb517c6ae6129ce85fc8955681721430977db963d8277da8ba05e31"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_candidates.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_candidates.csv",
+      "size_bytes": 800622,
+      "sha256": "1e6e0d3269a3beab2da1ccf3d15cb3d9a7a64082b7cd02e69fa888796d8a958a"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_diagnostics.json",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_diagnostics.json",
+      "size_bytes": 273243,
+      "sha256": "2731c0ee6f345cbe39aae814d5e12b9b4cbb6742a8350d8167f69cbfec55500e"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_selections.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_selections.csv",
+      "size_bytes": 222007,
+      "sha256": "9b36547373a3dba005af862bf0eed0b91cae1a272196d9de7eb181517a84c210"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_series.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_series.csv",
+      "size_bytes": 323430,
+      "sha256": "2589344ad95d495091fb2c13f9cc03bd2dc306d7e1424b6e13b17ec45e92c992"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_summary.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_summary.csv",
+      "size_bytes": 1595,
+      "sha256": "0f40897dad69b45b8c291d6b0104638b0ad456e1ff4a847bc923a6f10f8718c3"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/simulation_truth.csv",
+      "source": "outputs/story_revision/2026-10-17-r1/simulation_truth.csv",
+      "size_bytes": 23426,
+      "sha256": "35c45644b2bd7ba28ea40374b5936dd2595fa09c9d8706b8d5e7c884bb85ad40"
+    },
+    {
+      "path": "outputs/story_revision/2026-10-17-r1/specification.json",
+      "source": "outputs/story_revision/2026-10-17-r1/specification.json",
+      "size_bytes": 1577,
+      "sha256": "f47d0b4d33117941f5493b6d9a7c67e2d6af68222af2fb56d640c5e0cfc1efc0"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/ablation_step_summary.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/ablation_step_summary.csv",
+      "size_bytes": 336,
+      "sha256": "60f15bc6d528c1a3c7ccfd8a9b313aefa61c96bf619d2f788f9d994455ff258b"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/calibrated_simulation_paired_errors.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/calibrated_simulation_paired_errors.csv",
+      "size_bytes": 3262,
+      "sha256": "a27210ff6a37365e04b2881ea15da06ef497f21928c60993ae85a2d3ff92c0e8"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/calibrated_simulation_summary.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/calibrated_simulation_summary.csv",
+      "size_bytes": 11824,
+      "sha256": "9122b24e34217cfddfec20f2a9ab4c342ebd869d055bdd0e1c92e87565236415"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/endpoint_and_support_summary.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/endpoint_and_support_summary.csv",
+      "size_bytes": 787,
+      "sha256": "d5d4537fce2c505e8ba29de4385ed39c30c60dae284ec9e62d2360086682eb3b"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/extraction/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/extraction/manifest.json",
+      "size_bytes": 4900,
+      "sha256": "d38d353a2150a7111619faa38d5f9fe9fd948359dbf39d393ab2cd91224eeb2d"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/extraction/specification.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/extraction/specification.json",
+      "size_bytes": 563,
+      "sha256": "c4bb72f66ddffb30cb6a96ec2f9d33fa0fbe8d5836d84fb2740ea16c6ea59015"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/extraction/uniform_support_panel.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/extraction/uniform_support_panel.csv",
+      "size_bytes": 1039552,
+      "sha256": "b869ab8a820b1371be3d1e9a635fc2357d2e1bf4a297534e69bab5170b02faf6"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/extraction_comparison.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/extraction_comparison.csv",
+      "size_bytes": 3985,
+      "sha256": "794a568f9142acb52ef804dd68de72ad8648018f1f94f99073730f8be2252a82"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/actual_candidates.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/actual_candidates.csv",
+      "size_bytes": 218183,
+      "sha256": "a8baac0574b55c1e44cfafd67dd97503de8c37d40d2bb4fbfbaf5aa8975aa60f"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/actual_diagnostics.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/actual_diagnostics.json",
+      "size_bytes": 47786,
+      "sha256": "34417369b28aa724b0007b9dbbc5036580154466e44271c6596977f39497ec41"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/actual_posterior.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/actual_posterior.csv",
+      "size_bytes": 965744,
+      "sha256": "6881b50a81fcd5b75d8f087e09929112cc2efdde76757ab85ee97062242e8e1c"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/actual_selections.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/actual_selections.csv",
+      "size_bytes": 37847,
+      "sha256": "093eeb2fa80ed7d42be8a000da88748b80ae448a664ef4251d26008860a81e80"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/actual_series.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/actual_series.csv",
+      "size_bytes": 1364717,
+      "sha256": "f4fbe1918fe8c91ebeeeebda51e50a9175fae3f24299cb81b6a4535a86115bc8"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/manifest.json",
+      "size_bytes": 2234,
+      "sha256": "0ef4f55579bf2241233815494b4a3b85a5e393886b186be31de22c8526fd7e9b"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/fits/specification.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/fits/specification.json",
+      "size_bytes": 1100,
+      "sha256": "6ecbd1539a9ba48330e7fd7cb9cf44e6fb1c2e12e8eb547870da57e6af8320a9"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/legacy/legacy_repeat_panel.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/legacy/legacy_repeat_panel.csv",
+      "size_bytes": 769389,
+      "sha256": "cd9c33bd18b8dbde1f7906de271c69631b2135ef044dbecb0b5ac8e408512c2a"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/legacy/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/legacy/manifest.json",
+      "size_bytes": 3852,
+      "sha256": "54c0808e936b9a92f552f27324a8ef288f1f1280b0f3395781c507ff9578c79e"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/closure_series.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/closure_series.csv",
+      "size_bytes": 524858,
+      "sha256": "60da5a315dd62ee505461ce46d362203a4d3841aa38f7552fbb83ff3f011d73c"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/closure_summary.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/closure_summary.csv",
+      "size_bytes": 10865,
+      "sha256": "9712d4fd10874ea92dd1e352c79abf2c3c8033487fdd899afb9c244f9c319215"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/manifest.json",
+      "size_bytes": 2235,
+      "sha256": "e8bdb97940189ba136c9937426654cbf3119b930939ffd09d0f7c802143682d5"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/noise_calibration.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/noise_calibration.csv",
+      "size_bytes": 2823,
+      "sha256": "e2c50d4fa6d6f78639b5fe7ccb0be99202c6175de3bf21ced31594524f9f6a16"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/noise_quantiles.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/noise_quantiles.csv",
+      "size_bytes": 228,
+      "sha256": "e549a9a947204b0486ff2bfa47402ad256a97fe5b54593a0ced140070d0f8c01"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/specification.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/specification.json",
+      "size_bytes": 1100,
+      "sha256": "6ecbd1539a9ba48330e7fd7cb9cf44e6fb1c2e12e8eb547870da57e6af8320a9"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/temporal_trend_intervals.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/temporal_trend_intervals.csv",
+      "size_bytes": 6528,
+      "sha256": "1efdc56cc47038c94dfc2d5fb0cb0e23b0824240cd63a1bcfa59bb601b8edc33"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/well_and_proxy_trends.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/well_and_proxy_trends.csv",
+      "size_bytes": 14069,
+      "sha256": "4c5b5794eb03e4118c4aa017dbedee2a4b4eb6b09ec117e5f9bd3ccaa639f164"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/well_lags_0_12.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/well_lags_0_12.csv",
+      "size_bytes": 30436,
+      "sha256": "0d9045d3bc8fccc0e12274fb6b19f003ba2e3d2ee40474e8421cc939c939481e"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/well_multiscale_correlations.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/well_multiscale_correlations.csv",
+      "size_bytes": 88165,
+      "sha256": "91c8de188649ba537d1878287351ef6c48b4ce524fc9e2e3ab46783fd5bec85c"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/local/well_weighted_series.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/local/well_weighted_series.csv",
+      "size_bytes": 244155,
+      "sha256": "18f8acbea91110c31327c96bd38cd3c97d6d8f1577d128f97cccccae87ac5d5e"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/manifest.json",
+      "size_bytes": 12862,
+      "sha256": "02d3150297d34e0f1f2c805e47f268cf6b1974c25b0e2f42e44e9aa750669524"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/primary_endpoint_selections.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/primary_endpoint_selections.csv",
+      "size_bytes": 104371,
+      "sha256": "92f8d96c5c95aa6a6ac40137282493b3474a6ee541d6386aefc6092a2466fb10"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/reference/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/reference/manifest.json",
+      "size_bytes": 709,
+      "sha256": "f0e8f6b1a7c58bf500685c1cee2a5554dae1cb64b91876e526f59b15646fc578"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/reference/outer_iteration_comparison.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/reference/outer_iteration_comparison.csv",
+      "size_bytes": 1152,
+      "sha256": "091c434a565c75d6f5871a06486fd3b2779e5f65134cc725206fb1c068f32b65"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/seed_repeatability.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/seed_repeatability.csv",
+      "size_bytes": 189,
+      "sha256": "021ae7f43a7e958b8cd9a9877919924fa14b1e7a260c286417e4faaa04d77ab8"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/manifest.json",
+      "size_bytes": 2240,
+      "sha256": "89a27f4087c576e7731fa82a580218b367a61c7a8f48894a381cb7fec897085a"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_candidates.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_candidates.csv",
+      "size_bytes": 3178509,
+      "sha256": "fc5ba1b6f7c898991640182fd17c97926129feb409d59c8f8d7612499e0f4445"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_diagnostics.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_diagnostics.json",
+      "size_bytes": 636899,
+      "sha256": "e5fdd628da63ce44afceb3a64b9f445cb98f2482a51d3e15b316c76a6472eeb9"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_selections.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_selections.csv",
+      "size_bytes": 703912,
+      "sha256": "f5394d2ea0d3bd8461cc6e36d672bc38247a72e9ba8e815642de667073fd0dba"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_settings.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_settings.json",
+      "size_bytes": 2509,
+      "sha256": "cd11894c9a5c895554fffa086a7c5dc1fab8fdb6b3393c42b0085461488a5712"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_truth.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/simulation_truth.csv",
+      "size_bytes": 69684,
+      "sha256": "f0a8fcd4e50fc604fef32e2f072f5536e24f827979fc237be92e3874c0b2f5ae"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/simulation/specification.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/simulation/specification.json",
+      "size_bytes": 1100,
+      "sha256": "6ecbd1539a9ba48330e7fd7cb9cf44e6fb1c2e12e8eb547870da57e6af8320a9"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/source_snapshots/ncp_validation_extension_v1.py",
+      "source": "outputs/validation_revision/2026-10-17-r2/source_snapshots/ncp_validation_extension_v1.py",
+      "size_bytes": 22039,
+      "sha256": "f1ee7673b65029000faf88bd187d1d1f0d098cd2a6608491738fa8175e7dfe54"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/manifest.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/manifest.json",
+      "size_bytes": 360,
+      "sha256": "c5bce32e4ddd46a601ec5177925d2aa41cd2cae56f86f2955cad3406079e0050"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/noise_calibration.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/noise_calibration.csv",
+      "size_bytes": 2832,
+      "sha256": "14cd7e6adc2c60f0107e0486fb62b0e2e027f3f2ead9e7bd6255efc7d54c6bc9"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/noise_quantiles.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/noise_quantiles.csv",
+      "size_bytes": 226,
+      "sha256": "0610f31a82ceff0346de76f55de9c3cec2072c85db797180b9a7c2a062cb0c70"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/temporal_trend_intervals.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/temporal_trend_intervals.csv",
+      "size_bytes": 6523,
+      "sha256": "31c7d08bb7e4adc8eb79026e71bb79ab06cf099b91231a54bcd8f357e1d3624d"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_calendar_panel.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_calendar_panel.csv",
+      "size_bytes": 1864159,
+      "sha256": "422c58a1ba9f5a6dc61af1348a9696d85b63f7f265685f1e27fc84240d69cd7f"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_candidates.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_candidates.csv",
+      "size_bytes": 242660,
+      "sha256": "e3616bea5485bea05cfd534f1a2f05f3719bef273355abaef1ee4673bf7fd45c"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_diagnostics.json",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_diagnostics.json",
+      "size_bytes": 54743,
+      "sha256": "b56dd796b36bb0d1029473eab269b630550df00b1af58a93e9e29fbda8575564"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_posterior.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_posterior.csv",
+      "size_bytes": 286965,
+      "sha256": "8058674900b2fb4dbc24feddf9cadd917e5835cf0c8ebde58009cc4b34531049"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_selections.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_selections.csv",
+      "size_bytes": 44596,
+      "sha256": "1c1d8a71fb1ce99dc866949ebe8efe9ec71f1a082cd0ef3b17a3a9970d137e76"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_series.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/uniform_series.csv",
+      "size_bytes": 407176,
+      "sha256": "a22fbddbbbf3924c8613c6342077885aa055b4ad24aef0ae1633d4dedef021ed"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/well_and_proxy_trends.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/well_and_proxy_trends.csv",
+      "size_bytes": 14044,
+      "sha256": "cfbd83f3f1e90460b93165398334612d507994a32df3f054ab541aa438c353cb"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/well_lags_0_12.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/well_lags_0_12.csv",
+      "size_bytes": 30432,
+      "sha256": "d3a57ae2d94b296d7f629644f5e24145373a0ff25cc2cf5f0276320ed3b4fc1b"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/well_multiscale_correlations.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/well_multiscale_correlations.csv",
+      "size_bytes": 88077,
+      "sha256": "727679c2294e120006e9c35ce34d0d9ce1bcefd4a3dbde27844952094fcb0845"
+    },
+    {
+      "path": "outputs/validation_revision/2026-10-17-r2/uniform/well_weighted_series.csv",
+      "source": "outputs/validation_revision/2026-10-17-r2/uniform/well_weighted_series.csv",
+      "size_bytes": 244903,
+      "sha256": "273cd7981cc553b794fd04459e18186df72636c33567b601f1e43cb1c9a157d4"
+    },
+    {
+      "path": "scripts/build_hydrogeology_maps.py",
+      "source": "scripts/build_hydrogeology_maps.py",
+      "size_bytes": 31906,
+      "sha256": "57f7005636c38cd69780b1a318716f59e49b1e7b2ec4eca6c4d57eae9b820685"
+    },
+    {
+      "path": "scripts/fetch_hydrogeology_map_inputs.py",
+      "source": "scripts/fetch_hydrogeology_map_inputs.py",
+      "size_bytes": 3964,
+      "sha256": "4ebcb283b48317c7348f570da7ade058dceb6111f87463f1b19a76523da5ff52"
+    },
+    {
+      "path": "scripts/render_hydrogeology_figure3.py",
+      "source": "scripts/render_hydrogeology_figure3.py",
+      "size_bytes": 10703,
+      "sha256": "af6aaf4a4fde21be1e7d3d89d92bd2eb9756ac6630d4f113be25e35c5646a85b"
+    },
+    {
+      "path": "scripts/render_hydrogeology_figure4.py",
+      "source": "scripts/render_hydrogeology_figure4.py",
+      "size_bytes": 14085,
+      "sha256": "e6875a05b93a469de167df941967403ac3edd6e202d640640786095d97268228"
+    },
+    {
+      "path": "scripts/render_hydrogeology_figure5.py",
+      "source": "scripts/render_hydrogeology_figure5.py",
+      "size_bytes": 13734,
+      "sha256": "5bb760287223c0d147b1add8ffe9d9f21b33f4c243e7b52faed3d447894622ca"
+    },
+    {
+      "path": "scripts/render_without_fitting.py",
+      "source": "scripts/render_without_fitting.py",
+      "size_bytes": 1492,
+      "sha256": "29c87841be4afc5361a68f72981a2690c8f805a24be3e6dc6407887971b1c130"
+    },
+    {
+      "path": "scripts/verify_resources.py",
+      "source": "scripts/verify_public_resources.py",
+      "size_bytes": 1072,
+      "sha256": "c21a820b0783135f2d31a577241b9316d22e0cb9cb514f571abd188787984940"
+    }
+  ]
+}

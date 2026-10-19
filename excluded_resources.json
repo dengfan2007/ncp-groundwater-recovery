@@ -1,0 +1,35 @@
+{
+  "note": "Original data/external and map payloads are wholly excluded; this list records additional exclusions from candidate evidence directories.",
+  "files": [
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/well_period_coverage.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "c94aec1f10325197d0fa050407c5e680f16f4230ad389753a1242363604bde0b"
+    },
+    {
+      "path": "outputs/calendar_revision/2026-10-12-r4/well_recent_coverage.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "f4d9b29bf477f577555ba5c0ac0eb340d5fde52b133eef35d71bb903edf44faf"
+    },
+    {
+      "path": "outputs/review_revision/2026-10-15-r1/well_cohort_membership.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "fae57f3b1cdc9cfe6b1f6664c2f1dba0801b6380ffe2871e4eb00ee6bc83b384"
+    },
+    {
+      "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig01_fixed_wells.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "ccbee831205095cd0a45a4f01bc0217ac05e0b078aea76e2680dccd6239b34aa"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/fig01_fixed_wells.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "ccbee831205095cd0a45a4f01bc0217ac05e0b078aea76e2680dccd6239b34aa"
+    },
+    {
+      "path": "outputs/figure_revision/2026-10-17-final/tables/supplement_full_well_locations.csv",
+      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "sha256": "055b78d2fc15016aaab330dc9c9ff04bbc9543a4ae4abd665e390b9d36162579"
+    }
+  ]
+}

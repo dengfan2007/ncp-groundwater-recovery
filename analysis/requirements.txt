@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=1.26
+statsmodels>=0.14
+scipy>=1.13
+Rbeast>=0.1.23
+earthengine-api>=1.7
+matplotlib>=3.8
+geopandas>=0.14
+shapely>=2.0
+openpyxl>=3.1

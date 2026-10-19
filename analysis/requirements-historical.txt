@@ -1,0 +1,12 @@
+# Recorded in outputs/repro_manifest.json on 2026-04-17, Python 3.11.7.
+# Historical reference only; not a complete transitive dependency lock.
+pandas==2.1.4
+numpy==1.26.4
+statsmodels==0.14.0
+scipy==1.11.4
+Rbeast==0.1.25
+earthengine-api==1.7.22
+matplotlib==3.8.0
+geopandas==1.1.3
+shapely==2.1.2
+openpyxl==3.1.5
