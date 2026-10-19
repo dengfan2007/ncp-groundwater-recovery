@@ -1,5 +1,7 @@
 # Reproducing the deposited results
 
+The repository is currently private. The following download instructions require authorized repository access; contact the corresponding author about access. Full well-level reruns also require the separate source-data permissions described in DATA_ACCESS.md.
+
 ## 1. Obtain and verify
 
 Clone https://github.com/dengfan2007/ncp-groundwater-recovery and check out `v1.0.0`. Download `ncp-groundwater-recovery-evidence-v1.0.0.zip` from that release. Extract its contents at the repository root; it supplies `data/` and `outputs/` at the paths expected by the code.

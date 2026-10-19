@@ -2,6 +2,8 @@
 
 Checked 2026-10-19.
 
+The repository is temporarily private at the authors' request. Access enquiries go to the corresponding author; the curation exclusions below also apply to authorized copies. A repository URL does not currently provide anonymous public access.
+
 | Resource | Access and deposited scope |
 | --- | --- |
 | JPL GRACE mascons | NASA; extraction code and frozen gridded study panel are supplied. Product IDs, units, missing-month masks and source hashes remain in extraction manifests. https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_V04_MASCON_CRI |

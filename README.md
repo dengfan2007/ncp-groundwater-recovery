@@ -4,6 +4,8 @@ Resources supporting **Identifying groundwater recovery in the North China Plain
 
 Repository: https://github.com/dengfan2007/ncp-groundwater-recovery
 
+Access status: **temporarily private at the authors' request**. Repository and release downloads require authorized access. Enquiries about deposited materials should be directed to corresponding author Fan Deng (dengfan@yangtzeu.edu.cn), subject to the source-data conditions below. This link must not be described as a publicly accessible deposit while the repository remains private.
+
 Resource version: `v1.0.0` (2026-10-19). This is a research resource release; it does not indicate journal acceptance or submission.
 
 ## Contents

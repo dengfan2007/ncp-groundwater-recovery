@@ -8,8 +8,8 @@
     {
       "path": "README.md",
       "source": "publication/ncp-groundwater-recovery/README.md",
-      "size_bytes": 3130,
-      "sha256": "ab25b2613390664024f3c088809f9fb4c5c84e7a41c6b7b1f194fc88e7732d51"
+      "size_bytes": 3518,
+      "sha256": "5124567c4f1443d7d1883b140cd8409a825e8b50ee952074479cf2b076de8d4e"
     },
     {
       "path": "RIGHTS.md",
@@ -362,8 +362,8 @@
     {
       "path": "docs/DATA_ACCESS.md",
       "source": "publication/ncp-groundwater-recovery/DATA_ACCESS.md",
-      "size_bytes": 2627,
-      "sha256": "d4ebf2779ec9a27e485fcf80e54917738471ebe95ef607bcd4678e6c17551775"
+      "size_bytes": 2872,
+      "sha256": "4917ca26f67f26f141474d2b4a3bc421f49089750a53084a68d03d1da61acf6c"
     },
     {
       "path": "docs/ENVIRONMENT.md",
@@ -374,8 +374,8 @@
     {
       "path": "docs/REPRODUCING.md",
       "source": "publication/ncp-groundwater-recovery/REPRODUCING.md",
-      "size_bytes": 4474,
-      "sha256": "6b128a836cb444f16984ca968de3bc64565c2102c296001c5495d46da9212832"
+      "size_bytes": 4735,
+      "sha256": "dc090c444d6e45028500e97b89de6f3409d905de5df555494fd64c0ecf12ad1d"
     },
     {
       "path": "docs/RESOURCE_MAP.md",
