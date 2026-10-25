@@ -1,8 +1,4 @@
-"""Render HJ r7 endpoint evidence from frozen selections and spatial intervals.
-
-No model fits, interval recomputation, date jitter, or canonical-source writes.
-Use the existing project Anaconda runtime and a fresh output directory.
-"""
+"""Render Figure 3 endpoint evidence from frozen selections and spatial intervals."""
 from pathlib import Path
 import argparse
 import hashlib

@@ -1,7 +1,4 @@
-"""Clarify Figure 5 using frozen simulations; apply fixed rules to one held-out set.
-
-No simulations, BEAST fits, or threshold searches are run. Output must be new.
-"""
+"""Render Figure 5 matched validation false-report distributions and selections."""
 from pathlib import Path
 from statistics import NormalDist
 import argparse

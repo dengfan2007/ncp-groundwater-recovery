@@ -1,9 +1,4 @@
-"""Create isolated HJ HLM/SAM maps from archived analysis geometry and public GIS.
-
-No research fits, masks, group assignments, or canonical manuscripts are changed.
-Run with the project's existing Anaconda Python. Download inputs separately using
-fetch_hydrogeology_map_inputs.py. Each manuscript compile needs a fresh build label.
-"""
+"""Create hydrogeological location map (HLM) and study area map (SAM) from analysis geometry and public GIS data."""
 from __future__ import annotations
 
 import argparse
@@ -371,56 +366,44 @@ def finalize_metadata(dest, inputs, result, build_label):
                   'Korean military demarcation line distinguished from international land borders',
                   'No offshore country boundaries or distant disconnected territories drawn'],
         'un_map_artwork_reproduced_in_figure':False})
-    write(sources/'README.md','''# 图1制作源与使用说明
+    write(sources/'README.md','''# Figure 1 Sources and Usage Notes
 
-图1含区域水文地质定位图HLM（a）、详细研究区SAM（b）和固定井群（c）。主稿调用01_manuscript/Fig01.pdf；此目录另提供HLM.pdf、SAM.pdf及PNG预览。可编辑图为01_manuscript/Fig01.svg；GIS图层为EPSG:4326 GeoJSON。主绘图程序为项目scripts/build_hydrogeology_maps.py，原始下载程序为scripts/fetch_hydrogeology_map_inputs.py。
+Figure 1 comprises a regional hydrogeological location map (HLM, panel a), a detailed study area map (SAM, panel b), and monitoring well locations (panel c). The main manuscript incorporates 01_manuscript/Fig01.pdf. Standalone maps are provided as HLM.pdf and SAM.pdf, with PNG previews. Vector artwork is available as 01_manuscript/Fig01.svg. Cartographic layers are stored as EPSG:4326 GeoJSON. Maps are generated via scripts/build_hydrogeology_maps.py, and public data are retrieved via scripts/fetch_hydrogeology_map_inputs.py.
 
-## 数据来源与许可
+## Data Sources and Licensing
 
-| 内容 | 来源及处理 | 使用依据 |
+| Layer | Source and Processing | Usage Terms |
 | --- | --- | --- |
-| 区域含水系统类型 | BGR/UNESCO，Groundwater Resources of the World (WHYMAP)，2008，1:25,000,000；2026-10-19读取官方GIS服务第11层。仅按aquif_type合并补给量子类，裁切到图幅及陆地 | BGR/UNESCO允许注明来源后使用/重现；图注已署名。官方说明：https://www.bgr.bund.de/whymap/EN/Maps_Data/maps_data_node_en.html |
-| 陆地/海岸、河流、陆地国界 | Natural Earth 1:10m。保留相关陆地国界；剔除overlay limits，将朝鲜半岛军事分界线单独以虚线表示；不绘海上国界 | 公有领域：https://www.naturalearthdata.com/about/terms-of-use/ |
-| 低地轮廓 | 复用manuscripts/assets/jhrs-v30/figure_01_lowland_mask_200m.geojson，原记录为SRTM/GAUL2015生成的≤200m显示轮廓 | 沿用既有来源和资产，不作为新计算的分析掩膜；源文件含完整处理元数据 |
-| 网格及井点 | 复用outputs/figure_revision/2026-10-17-final/tables/fig01_analysis_cells.csv和fig01_fixed_wells.csv | 既有研究输出：27格，北11/南16；共同18格；潜水井310、承压井284 |
-| 国名与代码 | UN M49：https://unstats.un.org/unsd/methodology/m49/ | 国名和PRK/KOR代码已与下载的UN表核对 |
-| 边界惯例参考 | UN Map of the World，No.4651 Rev.4，July 2026；图面中可见的相关陆地国界和邻接关系作区域视觉对照 | UN官网文件本次返回403/SSL错误，实际查看的是公开镜像中的UN署名原图；精确来源、哈希和限制见un_reference_check.json。未将UN原图重印到论文 |
+| Regional aquifer system types | BGR/UNESCO, Groundwater Resources of the World (WHYMAP), 2008, 1:25,000,000 (layer 11 of the official GIS service). Aquifer types merged and clipped to the regional extent. | Used and cited per BGR/UNESCO terms (https://www.bgr.bund.de/whymap/EN/Maps_Data/maps_data_node_en.html). |
+| Land, coastlines, rivers, international boundaries | Natural Earth 1:10m. Relevant land boundaries retained; Korean military demarcation line shown as a dashed line; offshore maritime boundaries omitted. | Public domain (https://www.naturalearthdata.com/about/terms-of-use/). |
+| Lowland elevation contour | Lowland mask (<= 200 m elevation) derived from SRTM/GAUL2015. | Display contour for regional topography. |
+| Grid cells and wells | Study analysis coordinates: 27 cells (11 North, 16 South; 18 overlapping cells); 310 unconfined wells, 284 confined wells. | Study analysis grid and monitoring network. |
+| Country names and codes | UN M49 standard (https://unstats.un.org/unsd/methodology/m49/). | Country naming and coding conventions. |
+| Boundary convention reference | UN Map of the World, No. 4651 Rev. 4 (July 2026). Used for visual comparison of visible land boundaries and adjacency. | Visual geographic reference. |
 
-Natural Earth各图层的下载地址、时间、SHA-256及成功/失败记录见download_manifest.json。完整下载文件保留在项目outputs/runs/2026-10-19-hj-map-inputs/；本目录的裁剪图层可直接导入QGIS。正文新增BGR/UNESCO和Natural Earth两条参考文献。
+## Cartographic Interpretation Boundaries
 
-## 地图解释边界
-
-- WHYMAP只用于区域水文地质背景；不应读取为局地含水层接触线、浅深层分界或井筛管层位，未绘制没有资料支持的流向、剖面或厚度。
-- 37°N为分析分组线；六个37°N中心网格在主分组归南方。它与低地轮廓都不是含水层边界。
-- b、c地图显示范围略宽于正文选区，以完整呈现原网格；a中的红框表示正文112–120°E、34.5–40.6°N选区框。
-- 河流为概化的地理参照，不表示研究时段的实际流量、补水路径或因果作用。
-- 城市、山脉和省名为地理标签；未把标注位置当作新的分析数据。
-
-图件原始宽176mm、高155mm；矢量PDF嵌入Arial字体，PNG为600dpi。SVG提供矢量编辑入口；带白色衬边的部分标签以矢量轮廓保存，文字内容也可在绘图脚本中修改。
+- WHYMAP serves solely as regional hydrogeological background and should not be interpreted as local aquifer boundaries, shallow/deep aquifer contact lines, or well screen depths. No unverified flow directions, cross-sections, or thicknesses are depicted.
+- The 37°N line represents an analytical division for study grouping; the six cells centered on 37°N are assigned to the southern group. Neither 37°N nor the lowland contour represents a physical aquifer boundary.
+- Panels b and c show an extent slightly wider than the study domain to present complete 1° grid cells; the red rectangle in panel a denotes the study extent (112–120°E, 34.5–40.6°N).
+- Rivers provide generalized geographic reference and do not represent actual streamflow rates, recharge paths, or causal mechanisms during the study period.
+- City, mountain, and provincial names serve as geographic labels.
 ''')
-    readme=(BASE/'README.md').read_text(encoding='utf-8')
-    readme=readme.replace('以及图1的区域水文地质定位图（HLM）与详细研究区图（SAM）合规性。','地图已补齐HLM/SAM并记录来源；UN边界核对方式与其限制见06_map_sources/README.md。')
-    readme=readme.replace('AI使用详情，地图已补齐','AI使用详情。地图已补齐')
-    readme=readme.replace('文件夹可整体移走，不依赖原项目绝对路径。','2026-10-19地图修订：从r6作者确认版复制，主稿24页，图1在第4页；保留6幅主图和2张表，新增2条地图文献，共40条。图2–6、ESM1及附信保持r6字节。\n\n文件夹可整体移走，不依赖原项目绝对路径。')
-    readme += '\n\n地图文件：[完整图1](01_manuscript/Fig01.pdf)、[600dpi预览](01_manuscript/Fig01.png)、[可编辑SVG](01_manuscript/Fig01.svg)、[HLM](06_map_sources/HLM.pdf)、[SAM](06_map_sources/SAM.pdf)、[数据来源与制作说明](06_map_sources/README.md)。\n'
-    write(dest/'README.md',readme)
-    checklist=dest/'04_journal_requirements/submission_checklist.md'
-    text=(BASE/'04_journal_requirements/submission_checklist.md').read_text(encoding='utf-8')
-    text=re.sub(r'\| HLM与SAM、相关水文地质/地理特征、UN地图规范 \|[^\n]+',
-                '| HLM与SAM、相关水文地质/地理特征、UN地图规范 | 9–10 | 已补齐图1a–c；WHYMAP区域背景、网格/井群、河流山地及相关地名、经纬度齐备。UN M49国名核对完成；边界作区域视觉对照，UN原图经镜像查看的限制见06_map_sources/un_reference_check.json |',text)
-    text=text.replace('2. 补齐图1所需HLM/SAM信息；不能把行政/纬度分区绘成真实含水层边界；记录地图来源和适用许可。',
-                      '2. 复核新增图1和06_map_sources中的来源/许可说明，保留37°N分组与水文地质边界的区分；后续若编辑要求直接UN底图复核或指定免责声明，按其意见处理。')
-    write(checklist,text)
-    write(record/'map_revision_log.md',f'''# HLM/SAM地图修订记录
+    readme_path = BASE / 'README.md'
+    if readme_path.exists():
+        readme = readme_path.read_text(encoding='utf-8')
+        write(dest / 'README.md', readme)
+    checklist_path = BASE / '04_journal_requirements/submission_checklist.md'
+    if checklist_path.exists():
+        text = checklist_path.read_text(encoding='utf-8')
+        write(dest / '04_journal_requirements/submission_checklist.md', text)
+    write(record / 'map_revision_log.md', f'''# HLM/SAM Map Revision Record
 
-日期：2026-10-19。基线为{BASE.name}作者确认版。地图构建：{build_label}。
+Date: 2026-10-19. Baseline: {BASE.name}. Build: {build_label}.
 
-- 新增WHYMAP区域水文地质定位图，扩充地理背景、UN M49国名/代码、陆地国界；SAM保留27格、37°N分组及594口固定井。
-- 新增Shijiazhuang、相关省市/山脉/河流标签；没有新增含水层剖面、深度、流向或因果箭头。
-- 修改仅限图1、图注、一句背景说明及两条地图参考文献。主稿24页，图1第4页；其他科学正文经去除这些地图内容后与r6逐字相同。
-- r6全部文件、JH/JHRS规范源、补充材料及共用资产逐项SHA-256核对未变；图2–6、ESM1与投稿附件复制后字节不变。
-- 直接使用Natural Earth和WHYMAP矢量，不重印UN地图；UN国名来自官方M49，区域边界视觉对照采用带UN署名/编号/日期的公开镜像，获取限制已明确记录。
-- 未重跑研究分析，未推送、上传或投稿。作者声明/公开数据代码链接/AI使用细节仍待补全。
+- Hydrogeological location map (HLM) added from WHYMAP; regional context, UN M49 country designations, and international land boundaries updated. SAM retains 27 cells, 37°N grouping, and 594 fixed wells.
+- Geographic labels added for Shijiazhuang, mountain ranges, and rivers. No inferred subsurface flow arrows, depths, or causal paths added.
+- Vector data directly sourced from Natural Earth and WHYMAP.
 ''')
 
 

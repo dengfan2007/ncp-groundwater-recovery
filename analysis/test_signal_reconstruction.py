@@ -1,4 +1,4 @@
-"""Numerical invariants, not evidence of real-world breakpoint accuracy."""
+"""Unit tests for signal reconstruction algorithms and decomposition invariants."""
 import unittest
 import numpy as np
 import pandas as pd

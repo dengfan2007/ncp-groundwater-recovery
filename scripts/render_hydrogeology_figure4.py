@@ -1,4 +1,4 @@
-"""Render and audit frozen Figure 4 examples; no BEAST or reconstruction refits."""
+"""Render Figure 4 candidate selection examples and series audits."""
 from pathlib import Path
 import argparse
 import hashlib

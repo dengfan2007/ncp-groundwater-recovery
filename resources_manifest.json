@@ -2,20 +2,20 @@
   "schema_version": 1,
   "version": "v1.0.0",
   "repository": "https://github.com/dengfan2007/ncp-groundwater-recovery",
-  "source_commit": "254c5dae238a64ca10f17d00d0fa2c8bd55312e4",
-  "scope": "Minimal necessary code, frozen gridded products, real-data candidate pools, trial truth/selections, multi-seed/mascon/local-rule checks and aggregate results. Individual-well data, raw simulation candidate pools and mixed-source map payloads excluded.",
+  "source_commit": "633c2d6b6c162e78eda6b9723bf437cf6ebc9d02",
+  "scope": "Code, frozen gridded products, real-data candidate pools, trial truth/selections, multi-seed/mascon/local-rule checks and aggregate results. Individual-well records and raw simulation candidate pools excluded.",
   "files": [
     {
       "path": "README.md",
       "source": "publication/ncp-groundwater-recovery/README.md",
-      "size_bytes": 3918,
-      "sha256": "c5268d72762e6befcdf5b48efa269ee2e8e0df9b6930815211f27a0cc6b91a59"
+      "size_bytes": 3207,
+      "sha256": "41503d75b3ae987d4c261aaf78d34d89476d8904355417fa588a738949aef2a0"
     },
     {
       "path": "RIGHTS.md",
       "source": "publication/ncp-groundwater-recovery/RIGHTS.md",
-      "size_bytes": 995,
-      "sha256": "17f3037e09a0c11ab0cf354687763b8ac43056b1230acf87abb648dabbe4e030"
+      "size_bytes": 808,
+      "sha256": "5854f834b214f259e8a931355d323658c38c1bf217d79a74e1e41f20691b9448"
     },
     {
       "path": "analysis/ee_local.py",
@@ -206,8 +206,8 @@
     {
       "path": "analysis/ncp_trajectory_postprocess.py",
       "source": "analysis/ncp_trajectory_postprocess.py",
-      "size_bytes": 18852,
-      "sha256": "a21e267716f1d01a9971e48acc26d0dc747f0d2f1da6c7cf1d433595c0a6f398"
+      "size_bytes": 18975,
+      "sha256": "713eaac74cb3e8e7558d9ed2a7f38b5b78412a9e83b167df54ebaa50b7664a5d"
     },
     {
       "path": "analysis/ncp_validation_extension.py",
@@ -266,8 +266,8 @@
     {
       "path": "analysis/test_signal_reconstruction.py",
       "source": "analysis/test_signal_reconstruction.py",
-      "size_bytes": 2609,
-      "sha256": "0fa76c764d4e18be922d896ca8a9c93442b772bb211e5faccb14e1a1d4ca6db1"
+      "size_bytes": 2617,
+      "sha256": "96ceb5e26978c30c553fd52f2a07977e072bf237f309ff7d4d4e4e69b5a2db41"
     },
     {
       "path": "data/raw/grid_monthly_panel.csv",
@@ -284,38 +284,38 @@
     {
       "path": "docs/DATA_ACCESS.md",
       "source": "publication/ncp-groundwater-recovery/DATA_ACCESS.md",
-      "size_bytes": 2872,
-      "sha256": "4917ca26f67f26f141474d2b4a3bc421f49089750a53084a68d03d1da61acf6c"
+      "size_bytes": 2022,
+      "sha256": "962472350784526cff7c99575d5ef38eddcb1702dbde57783db9bd5cadfe603f"
     },
     {
       "path": "docs/ENVIRONMENT.md",
-      "source": "docs/management/ENVIRONMENT.md",
-      "size_bytes": 2298,
-      "sha256": "36843c3e39a473bf324312960f8a3e761f61c7e8318bff73c7e1d93ca081e3ef"
+      "source": "publication/ncp-groundwater-recovery/ENVIRONMENT.md",
+      "size_bytes": 976,
+      "sha256": "b0b34a83d6f504466612e2f048402fa38d7c94f3aeeb28c78fc28cd1395edb57"
     },
     {
       "path": "docs/REPRODUCING.md",
       "source": "publication/ncp-groundwater-recovery/REPRODUCING.md",
-      "size_bytes": 5000,
-      "sha256": "5116d12b2cad6614a2100e67d6c4700de4c2668ca131c24136ee757d4f4d98e5"
+      "size_bytes": 2497,
+      "sha256": "4a9ea1df9eaee60f07c7d9502249b3d2968d05efb39da9f4a907fd91453c16cb"
     },
     {
       "path": "docs/RESOURCE_MAP.md",
       "source": "publication/ncp-groundwater-recovery/RESOURCE_MAP.md",
-      "size_bytes": 4002,
-      "sha256": "971a9a9bb030551d87ecda5cfa9301f9a0b0a515df444af4ef3151050ecebaae"
+      "size_bytes": 3786,
+      "sha256": "1fb971cb848a8cedfefb72a9fd4534e855ef876179f23382c9a55455954c7e0c"
     },
     {
       "path": "docs/map_sources.md",
-      "source": "submission/hydrogeology-journal/2026-10-20-hydrogeology-r11-writing/06_map_sources/README.md",
-      "size_bytes": 3213,
-      "sha256": "357b2fc85910565a60e30d4df00b69d9371ae4186916f6b80ecfc04bd9cd2040"
+      "source": "publication/ncp-groundwater-recovery/map_sources.md",
+      "size_bytes": 2500,
+      "sha256": "a17a7d93bfad80141d5cac648e6b45004569aa7baa678040047aed3542348c4c"
     },
     {
       "path": "excluded_resources.json",
       "source": "curation policy",
-      "size_bytes": 2536,
-      "sha256": "0dbbe815451af64b1253a081872c1ec2e4f4140aee1a1baffbca394fa01fc28f"
+      "size_bytes": 2476,
+      "sha256": "bf9d9fab65b3d7be15f11134a474c3b2734fd8ad9148dd88de2223f05010c3a5"
     },
     {
       "path": "gee/ncp_grid_monthly_panel.js",
@@ -1448,8 +1448,8 @@
     {
       "path": "scripts/build_hydrogeology_maps.py",
       "source": "scripts/build_hydrogeology_maps.py",
-      "size_bytes": 31906,
-      "sha256": "57f7005636c38cd69780b1a318716f59e49b1e7b2ec4eca6c4d57eae9b820685"
+      "size_bytes": 29155,
+      "sha256": "442133b5e6ca8182fe4d5fe6a181c418432eb8f5163b135607663c7946d5a3ed"
     },
     {
       "path": "scripts/fetch_hydrogeology_map_inputs.py",
@@ -1460,20 +1460,20 @@
     {
       "path": "scripts/render_hydrogeology_figure3.py",
       "source": "scripts/render_hydrogeology_figure3.py",
-      "size_bytes": 10703,
-      "sha256": "af6aaf4a4fde21be1e7d3d89d92bd2eb9756ac6630d4f113be25e35c5646a85b"
+      "size_bytes": 10552,
+      "sha256": "8ff933e5bd690aaa11da6818ab35506d706c53a26c70305d0980916f67574615"
     },
     {
       "path": "scripts/render_hydrogeology_figure4.py",
       "source": "scripts/render_hydrogeology_figure4.py",
-      "size_bytes": 14085,
-      "sha256": "e6875a05b93a469de167df941967403ac3edd6e202d640640786095d97268228"
+      "size_bytes": 14071,
+      "sha256": "08c78bf8c9dacc8b96fd1014b6f70f67a6a9b0bd9d4f8260a8bc7c40e1d8f482"
     },
     {
       "path": "scripts/render_hydrogeology_figure5.py",
       "source": "scripts/render_hydrogeology_figure5.py",
-      "size_bytes": 15248,
-      "sha256": "3280dc6f9c285812bf6c687f4ed62ca13d2ddc58126a7c3e425c3fb21975a6d0"
+      "size_bytes": 15163,
+      "sha256": "e4d7e2b2a45ef79772b88096a401fc106bcf9babee60001c6977b3a09dda2ada"
     },
     {
       "path": "scripts/render_without_fitting.py",

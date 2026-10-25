@@ -341,17 +341,17 @@ def write_figure_spec(output_path: Path, trajectory_df: pd.DataFrame, well_summa
     lines = [
         "# Paper Figure Spec",
         "",
-        "1. 研究区与 1° 网格分布图。",
-        "2. 区域平均 GWA 时序图与关键政策节点。",
-        "3. 恢复轨迹类型空间分布图。",
-        "4. 各轨迹类型的平均恢复轨迹图。",
-        "5. 各轨迹类型的水体变化对比图。",
-        "6. 滹沱河案例区缓冲带与代表网格轨迹类型图。",
-        "7. 缓冲带水体持续性与代表网格 residual/GWA 图。",
-        "8. 井网与遥感区域平均对比图。" if has_well_rows else "8. 井网图暂不作为主图，当前无可用井网验证结果。",
+        "1. Study area and 1-degree grid distribution map.",
+        "2. Regional average GWA time series and key policy milestones.",
+        "3. Spatial distribution of recovery trajectory types.",
+        "4. Mean recovery trajectories by trajectory type.",
+        "5. Comparison of surface-water changes by trajectory type.",
+        "6. Hutuo River case study: buffer zone and representative grid trajectory types.",
+        "7. Buffer water persistence and representative grid residual/GWA series.",
+        "8. In-situ monitoring wells versus remote sensing regional average comparison." if has_well_rows else "8. Well comparison figure omitted; no active well validation results available.",
         "",
         f"- Grid count: {trajectory_df['grid_id'].nunique()}",
-        f"- Trajectory counts: {json.dumps(counts, ensure_ascii=False)}",
+        f"- Trajectory counts: {json.dumps(counts, ensure_ascii=True)}",
     ]
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

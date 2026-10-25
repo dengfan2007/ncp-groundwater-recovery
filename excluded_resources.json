@@ -1,39 +1,39 @@
 {
-  "note": "Original data/external and map payloads are wholly excluded; this list records individual-well and bulky raw simulation exclusions from candidate evidence directories.",
+  "note": "Records individual-well files and raw simulation candidate pools excluded from the repository. Trial truth, selections, and threshold-grid evaluations are included.",
   "files": [
     {
       "path": "outputs/review_revision/2026-10-15-r1/well_cohort_membership.csv",
-      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "reason": "Individual-well identifiers, locations, and time series require source authorization (see DATA_ACCESS.md).",
       "sha256": "fae57f3b1cdc9cfe6b1f6664c2f1dba0801b6380ffe2871e4eb00ee6bc83b384"
     },
     {
       "path": "outputs/monitoring_revision/2026-10-18-r1/figure_tables/fig01_fixed_wells.csv",
-      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "reason": "Individual-well identifiers, locations, and time series require source authorization (see DATA_ACCESS.md).",
       "sha256": "ccbee831205095cd0a45a4f01bc0217ac05e0b078aea76e2680dccd6239b34aa"
     },
     {
       "path": "outputs/figure_revision/2026-10-17-final/tables/fig01_fixed_wells.csv",
-      "reason": "Individual-well identifiers/locations/coverage; obtain source permission.",
+      "reason": "Individual-well identifiers, locations, and time series require source authorization (see DATA_ACCESS.md).",
       "sha256": "ccbee831205095cd0a45a4f01bc0217ac05e0b078aea76e2680dccd6239b34aa"
     },
     {
       "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/candidates.csv",
-      "reason": "Raw simulation candidate pool or verbose per-task diagnostic log omitted for minimal public archive; trial truth, selections and full threshold-grid evaluations are included.",
+      "reason": "Raw simulation candidate pool and diagnostic logs excluded; trial truth, selections, and full threshold-grid evaluations are deposited.",
       "sha256": "9e0260bb2282be63c6ad09553057f57e1cb10ec7d7d6eddf7fac04261b2e4746"
     },
     {
       "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/candidates.csv",
-      "reason": "Raw simulation candidate pool or verbose per-task diagnostic log omitted for minimal public archive; trial truth, selections and full threshold-grid evaluations are included.",
+      "reason": "Raw simulation candidate pool and diagnostic logs excluded; trial truth, selections, and full threshold-grid evaluations are deposited.",
       "sha256": "b3992006a3845c3c87b417a46263d4cae670c1b18733cf61024421ddf6f04a07"
     },
     {
       "path": "outputs/monitoring_revision/2026-10-18-r1/calibration/diagnostics.json",
-      "reason": "Raw simulation candidate pool or verbose per-task diagnostic log omitted for minimal public archive; trial truth, selections and full threshold-grid evaluations are included.",
+      "reason": "Raw simulation candidate pool and diagnostic logs excluded; trial truth, selections, and full threshold-grid evaluations are deposited.",
       "sha256": "30cc505e270491692222a472ed3737eb724af00435b1b8ae1e318f6327f425fb"
     },
     {
       "path": "outputs/monitoring_revision/2026-10-18-r1/two_stage/diagnostics.json",
-      "reason": "Raw simulation candidate pool or verbose per-task diagnostic log omitted for minimal public archive; trial truth, selections and full threshold-grid evaluations are included.",
+      "reason": "Raw simulation candidate pool and diagnostic logs excluded; trial truth, selections, and full threshold-grid evaluations are deposited.",
       "sha256": "bc2890a7c1679e95a000abf425f0670462d2b7c48aee923759c88a559c62f9f5"
     }
   ]
