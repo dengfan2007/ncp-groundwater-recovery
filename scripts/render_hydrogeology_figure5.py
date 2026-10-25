@@ -76,11 +76,31 @@ def validation_comparison(truth, candidates, original):
 
 def render(output):
     output.mkdir(parents=True, exist_ok=False)
-    paths = [EVIDENCE / x for x in ['calibration/truth.csv', 'calibration/candidates.csv',
-             'inference/original_rule_validation.csv', 'inference/two_stage_summary.csv',
-             'inference/two_stage_trials.csv', 'inference/rules.json']]
-    truth, candidates, original, summary, trials = [pd.read_csv(p) for p in paths[:5]]
-    comparison, paired = validation_comparison(truth, candidates, original)
+    cand_path = EVIDENCE / 'calibration/candidates.csv'
+    precomp_comparison = ROOT / 'outputs/current_figure_checks/figure5_evidence/same_validation_comparison.csv'
+    precomp_paired = ROOT / 'outputs/current_figure_checks/figure5_evidence/paired_validation_reports.csv'
+    if cand_path.is_file():
+        paths = [EVIDENCE / x for x in ['calibration/truth.csv', 'calibration/candidates.csv',
+                 'inference/original_rule_validation.csv', 'inference/two_stage_summary.csv',
+                 'inference/two_stage_trials.csv', 'inference/rules.json']]
+        truth, candidates, original, summary, trials = [pd.read_csv(p) for p in paths[:5]]
+        comparison, paired = validation_comparison(truth, candidates, original)
+    else:
+        paths = [EVIDENCE / 'calibration/truth.csv', precomp_comparison, precomp_paired,
+                 EVIDENCE / 'inference/original_rule_validation.csv',
+                 EVIDENCE / 'inference/two_stage_summary.csv',
+                 EVIDENCE / 'inference/two_stage_trials.csv', EVIDENCE / 'inference/rules.json']
+        truth, comparison, paired, original, summary, trials = [pd.read_csv(p) for p in paths[:6]]
+        for field in ['noise_seed', 'beast_seed', 'ensemble_seed']:
+            assert set(truth.loc[truth.split.eq('calibration'), field]).isdisjoint(
+                set(truth.loc[truth.split.eq('validation'), field]))
+        for r in comparison.loc[comparison.setting.eq('original')].itertuples():
+            old = original.loc[original.route.eq(r.route) & original.scenario.eq(r.scenario)
+                               & original.regime.eq(r.regime)].iloc[0]
+            assert r.n == old.n and r.reported == old.qualified
+            assert np.allclose([r.fraction, r.low, r.high], [old.fraction, old.low, old.high],
+                               atol=1e-12, rtol=0)
+        assert not (paired.date_strictest.notna() & paired.date_original.isna()).any()
     comparison.to_csv(output/'same_validation_comparison.csv', index=False)
     paired.to_csv(output/'paired_validation_reports.csv', index=False)
     fixed = trials.loc[trials.setting.eq('original') & trials.rule.eq('highest_probability')

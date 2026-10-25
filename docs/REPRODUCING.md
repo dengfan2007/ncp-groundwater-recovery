@@ -4,9 +4,7 @@ The repository is currently private. The following download instructions require
 
 ## 1. Obtain and verify
 
-Clone https://github.com/dengfan2007/ncp-groundwater-recovery and check out `v1.0.0`. Download `ncp-groundwater-recovery-evidence-v1.0.0.zip` from that release. Extract its contents at the repository root; it supplies `data/` and `outputs/` at the paths expected by the code.
-
-For the frozen `v1.0.0` source archive, also download the release attachment `resources_manifest.json` and place it at the extracted code root before verification. This corrects the byte size/hash of `excluded_resources.json` after LF newline normalization on GitHub; it changes no research payload. The main branch already carries the corrected checksums and current private-access notes. The tag remains unchanged.
+Clone https://github.com/dengfan2007/ncp-groundwater-recovery and check out `v1.0.0` (or `main`). Download `ncp-groundwater-recovery-evidence-v1.0.0.zip` from the `v1.0.0` release. Extract its contents at the repository root; it supplies `data/` and `outputs/` at the paths expected by the code.
 
 Run from the repository root:
 
@@ -49,6 +47,6 @@ $env:NCP_MONITORING_RUN_DIR = Join-Path $resourceRoot 'outputs/runs/reproduction
 python analysis/ncp_monitoring_revision.py --help
 ```
 
-Consult the stage runner and retained source snapshots before invoking baseline, repeatability, diagnostic, pilot, calibration, two-stage and inference stages. Repeatability/seed gates precede simulations. Preserve calibration/validation separation. Extraction requires the reader's own access and project; frozen extraction CSVs are supplied for inspection. Well stages require the original authorized records and expected local conversion, and the 2018 common-window sensitivity must be distinguished from the unsuccessful 2005-start coverage check.
+Consult the stage runner before invoking baseline, repeatability, diagnostic, pilot, calibration, two-stage and inference stages. Repeatability/seed gates precede simulations. Preserve calibration/validation separation. Multi-seed refits, native-mascon inference and local slope-rule evaluations are provided in `analysis/ncp_r9_seed_checks.py`, `ee_r9_mascon_membership.py`, `ncp_r9_mascon_inference.py` and `ncp_r9_local_rule.py`, with frozen outputs in `outputs/r9_checks/2026-10-19-r9-r1/`. Extraction requires the reader's own access and project; frozen extraction CSVs are supplied for inspection. Well stages require the original authorized records and expected local conversion, and the 2018 common-window sensitivity must be distinguished from the unsuccessful 2005-start coverage check.
 
 No new fitting was performed when preparing this release. Cross-platform bitwise repeatability and a full well-data rerun have not been established by this publication workflow. Some rank correlations have recorded floating-point tie portability limitations; the frozen evidence is retained.

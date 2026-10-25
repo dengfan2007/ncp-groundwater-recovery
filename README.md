@@ -6,16 +6,16 @@ Repository: https://github.com/dengfan2007/ncp-groundwater-recovery
 
 Access status: **temporarily private at the authors' request**. Repository and release downloads require authorized access. Enquiries about deposited materials should be directed to corresponding author Fan Deng (dengfan@yangtzeu.edu.cn), subject to the source-data conditions below. This link must not be described as a publicly accessible deposit while the repository remains private.
 
-Resource version: `v1.0.0` (2026-10-19). This is a research resource release; it does not indicate journal acceptance or submission.
+Resource version: `v1.0.0` (updated 2026-10-25 to synchronize with the revised manuscript, including r9 multi-seed repeatability, native JPL mascon inference and local slope-rule evaluations, while retaining minimal necessary public evidence files). This is a research resource release; it does not indicate journal acceptance or submission.
 
 ## Contents
 
-- `analysis/`: processing, candidate selection, known-truth simulations, endpoint experiments, diagnostics and existing tests. Historical dependencies are retained where needed; manuscript generators are excluded.
+- `analysis/`: processing, candidate selection, known-truth simulations, endpoint experiments, multi-seed and native-mascon checks, local slope-rule evaluations, diagnostics and existing tests. Historical dependencies are retained where needed; manuscript generators are excluded.
 - `scripts/`: figure renderers and resource verification. The three revised figure renderers recreate the endpoint, example-candidate and matched-validation figures directly from frozen evidence without fitting models.
 - `gee/`: satellite/model extraction scripts, requiring the reader's own authorized Earth Engine project.
 - `docs/`: reproduction instructions, evidence map, data access and rights information, and the recorded computation environment.
 - `resources_manifest.json`: relative paths, byte sizes and SHA-256 of code and frozen inputs/results.
-- Release asset `ncp-groundwater-recovery-evidence-v1.0.0.zip`: frozen gridded satellite/model inputs, complete real-data and simulation candidate pools, trial truth and outcomes, endpoint histories, diagnostic results and aggregate figure source tables. Extract at the repository root, preserving paths. Individual-well records and locations are excluded.
+- Release asset `ncp-groundwater-recovery-evidence-v1.0.0.zip`: minimal necessary frozen gridded satellite/model inputs, complete real-data candidate pools, trial-level simulation truth and selection outcomes, calibration and local-rule threshold-grid evaluations, multi-seed and native-mascon evidence, endpoint histories, diagnostic results and aggregate figure source tables. Extract at the repository root, preserving paths. Individual-well records and locations are excluded.
 
 Start with [reproduction instructions](docs/REPRODUCING.md) and the [evidence map](docs/RESOURCE_MAP.md). Run `python scripts/verify_resources.py` after extracting the asset.
 
